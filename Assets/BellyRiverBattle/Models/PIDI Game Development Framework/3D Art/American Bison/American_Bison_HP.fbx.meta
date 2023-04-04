@@ -1,0 +1,4102 @@
+fileFormatVersion: 2
+guid: 241fc1243c0f73943856227137d0eac5
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: American_Buffalo_Body
+  - first:
+      1: 100004
+    second: Armature
+  - first:
+      1: 100006
+    second: BF01_L
+  - first:
+      1: 100008
+    second: BF01_R
+  - first:
+      1: 100010
+    second: BF02_L
+  - first:
+      1: 100012
+    second: BF02_R
+  - first:
+      1: 100014
+    second: BF03_L
+  - first:
+      1: 100016
+    second: BF03_R
+  - first:
+      1: 100018
+    second: BF04_L
+  - first:
+      1: 100020
+    second: BF04_R
+  - first:
+      1: 100022
+    second: BF05_L
+  - first:
+      1: 100024
+    second: BF05_R
+  - first:
+      1: 100026
+    second: BODY01
+  - first:
+      1: 100028
+    second: BODY02
+  - first:
+      1: 100030
+    second: Bone_001
+  - first:
+      1: 100032
+    second: CLAVICLE_L
+  - first:
+      1: 100034
+    second: CLAVICLE_R
+  - first:
+      1: 100036
+    second: DIENTE_INF
+  - first:
+      1: 100038
+    second: DIENTE_SUP
+  - first:
+      1: 100040
+    second: EAR_L
+  - first:
+      1: 100042
+    second: EAR_R
+  - first:
+      1: 100044
+    second: FF01_L
+  - first:
+      1: 100046
+    second: FF01_R
+  - first:
+      1: 100048
+    second: FF02_L
+  - first:
+      1: 100050
+    second: FF02_R
+  - first:
+      1: 100052
+    second: FF03_L
+  - first:
+      1: 100054
+    second: FF03_R
+  - first:
+      1: 100056
+    second: FF04_L
+  - first:
+      1: 100058
+    second: FF04_R
+  - first:
+      1: 100060
+    second: HEAD
+  - first:
+      1: 100062
+    second: HIP_L
+  - first:
+      1: 100064
+    second: HIP_R
+  - first:
+      1: 100066
+    second: JAW
+  - first:
+      1: 100068
+    second: lengua
+  - first:
+      1: 100070
+    second: NECH01
+  - first:
+      1: 100072
+    second: NECK02
+  - first:
+      1: 100074
+    second: ROOT
+  - first:
+      1: 100076
+    second: SPRG02
+  - first:
+      1: 100078
+    second: TAIL01
+  - first:
+      1: 100080
+    second: TAIL02
+  - first:
+      1: 100082
+    second: TONGUE01
+  - first:
+      1: 100084
+    second: TONGUE02
+  - first:
+      1: 100086
+    second: TONGUE03
+  - first:
+      1: 100088
+    second: American_Buffalo_Body_0
+  - first:
+      1: 100090
+    second: Armature_0
+  - first:
+      1: 100092
+    second: BF01_L_0
+  - first:
+      1: 100094
+    second: BF01_R_0
+  - first:
+      1: 100096
+    second: BF02_L_0
+  - first:
+      1: 100098
+    second: BF02_R_0
+  - first:
+      1: 100100
+    second: BF03_L_0
+  - first:
+      1: 100102
+    second: BF03_R_0
+  - first:
+      1: 100104
+    second: BF04_L_0
+  - first:
+      1: 100106
+    second: BF04_R_0
+  - first:
+      1: 100108
+    second: BF05_L_0
+  - first:
+      1: 100110
+    second: BF05_R_0
+  - first:
+      1: 100112
+    second: BODY2
+  - first:
+      1: 100114
+    second: BODY3
+  - first:
+      1: 100116
+    second: Bone_2
+  - first:
+      1: 100118
+    second: CLAVICLE_L_0
+  - first:
+      1: 100120
+    second: CLAVICLE_R_0
+  - first:
+      1: 100122
+    second: DIENTE_INF_0
+  - first:
+      1: 100124
+    second: DIENTE_SUP_0
+  - first:
+      1: 100126
+    second: EAR_L_0
+  - first:
+      1: 100128
+    second: EAR_R_0
+  - first:
+      1: 100130
+    second: FF01_L_0
+  - first:
+      1: 100132
+    second: FF01_R_0
+  - first:
+      1: 100134
+    second: FF02_L_0
+  - first:
+      1: 100136
+    second: FF02_R_0
+  - first:
+      1: 100138
+    second: FF03_L_0
+  - first:
+      1: 100140
+    second: FF03_R_0
+  - first:
+      1: 100142
+    second: FF04_L_0
+  - first:
+      1: 100144
+    second: FF04_R_0
+  - first:
+      1: 100146
+    second: HEAD_0
+  - first:
+      1: 100148
+    second: HIP_L_0
+  - first:
+      1: 100150
+    second: HIP_R_0
+  - first:
+      1: 100152
+    second: JAW_0
+  - first:
+      1: 100154
+    second: lengua_0
+  - first:
+      1: 100156
+    second: NECH2
+  - first:
+      1: 100158
+    second: NECK3
+  - first:
+      1: 100160
+    second: ROOT_0
+  - first:
+      1: 100162
+    second: SPRG3
+  - first:
+      1: 100164
+    second: TAIL2
+  - first:
+      1: 100166
+    second: TAIL3
+  - first:
+      1: 100168
+    second: TONGUE2
+  - first:
+      1: 100170
+    second: TONGUE3
+  - first:
+      1: 100172
+    second: TONGUE4
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: American_Buffalo_Body
+  - first:
+      4: 400004
+    second: Armature
+  - first:
+      4: 400006
+    second: BF01_L
+  - first:
+      4: 400008
+    second: BF01_R
+  - first:
+      4: 400010
+    second: BF02_L
+  - first:
+      4: 400012
+    second: BF02_R
+  - first:
+      4: 400014
+    second: BF03_L
+  - first:
+      4: 400016
+    second: BF03_R
+  - first:
+      4: 400018
+    second: BF04_L
+  - first:
+      4: 400020
+    second: BF04_R
+  - first:
+      4: 400022
+    second: BF05_L
+  - first:
+      4: 400024
+    second: BF05_R
+  - first:
+      4: 400026
+    second: BODY01
+  - first:
+      4: 400028
+    second: BODY02
+  - first:
+      4: 400030
+    second: Bone_001
+  - first:
+      4: 400032
+    second: CLAVICLE_L
+  - first:
+      4: 400034
+    second: CLAVICLE_R
+  - first:
+      4: 400036
+    second: DIENTE_INF
+  - first:
+      4: 400038
+    second: DIENTE_SUP
+  - first:
+      4: 400040
+    second: EAR_L
+  - first:
+      4: 400042
+    second: EAR_R
+  - first:
+      4: 400044
+    second: FF01_L
+  - first:
+      4: 400046
+    second: FF01_R
+  - first:
+      4: 400048
+    second: FF02_L
+  - first:
+      4: 400050
+    second: FF02_R
+  - first:
+      4: 400052
+    second: FF03_L
+  - first:
+      4: 400054
+    second: FF03_R
+  - first:
+      4: 400056
+    second: FF04_L
+  - first:
+      4: 400058
+    second: FF04_R
+  - first:
+      4: 400060
+    second: HEAD
+  - first:
+      4: 400062
+    second: HIP_L
+  - first:
+      4: 400064
+    second: HIP_R
+  - first:
+      4: 400066
+    second: JAW
+  - first:
+      4: 400068
+    second: lengua
+  - first:
+      4: 400070
+    second: NECH01
+  - first:
+      4: 400072
+    second: NECK02
+  - first:
+      4: 400074
+    second: ROOT
+  - first:
+      4: 400076
+    second: SPRG02
+  - first:
+      4: 400078
+    second: TAIL01
+  - first:
+      4: 400080
+    second: TAIL02
+  - first:
+      4: 400082
+    second: TONGUE01
+  - first:
+      4: 400084
+    second: TONGUE02
+  - first:
+      4: 400086
+    second: TONGUE03
+  - first:
+      4: 400088
+    second: American_Buffalo_Body_0
+  - first:
+      4: 400090
+    second: Armature_0
+  - first:
+      4: 400092
+    second: BF01_L_0
+  - first:
+      4: 400094
+    second: BF01_R_0
+  - first:
+      4: 400096
+    second: BF02_L_0
+  - first:
+      4: 400098
+    second: BF02_R_0
+  - first:
+      4: 400100
+    second: BF03_L_0
+  - first:
+      4: 400102
+    second: BF03_R_0
+  - first:
+      4: 400104
+    second: BF04_L_0
+  - first:
+      4: 400106
+    second: BF04_R_0
+  - first:
+      4: 400108
+    second: BF05_L_0
+  - first:
+      4: 400110
+    second: BF05_R_0
+  - first:
+      4: 400112
+    second: BODY2
+  - first:
+      4: 400114
+    second: BODY3
+  - first:
+      4: 400116
+    second: Bone_2
+  - first:
+      4: 400118
+    second: CLAVICLE_L_0
+  - first:
+      4: 400120
+    second: CLAVICLE_R_0
+  - first:
+      4: 400122
+    second: DIENTE_INF_0
+  - first:
+      4: 400124
+    second: DIENTE_SUP_0
+  - first:
+      4: 400126
+    second: EAR_L_0
+  - first:
+      4: 400128
+    second: EAR_R_0
+  - first:
+      4: 400130
+    second: FF01_L_0
+  - first:
+      4: 400132
+    second: FF01_R_0
+  - first:
+      4: 400134
+    second: FF02_L_0
+  - first:
+      4: 400136
+    second: FF02_R_0
+  - first:
+      4: 400138
+    second: FF03_L_0
+  - first:
+      4: 400140
+    second: FF03_R_0
+  - first:
+      4: 400142
+    second: FF04_L_0
+  - first:
+      4: 400144
+    second: FF04_R_0
+  - first:
+      4: 400146
+    second: HEAD_0
+  - first:
+      4: 400148
+    second: HIP_L_0
+  - first:
+      4: 400150
+    second: HIP_R_0
+  - first:
+      4: 400152
+    second: JAW_0
+  - first:
+      4: 400154
+    second: lengua_0
+  - first:
+      4: 400156
+    second: NECH2
+  - first:
+      4: 400158
+    second: NECK3
+  - first:
+      4: 400160
+    second: ROOT_0
+  - first:
+      4: 400162
+    second: SPRG3
+  - first:
+      4: 400164
+    second: TAIL2
+  - first:
+      4: 400166
+    second: TAIL3
+  - first:
+      4: 400168
+    second: TONGUE2
+  - first:
+      4: 400170
+    second: TONGUE3
+  - first:
+      4: 400172
+    second: TONGUE4
+  - first:
+      43: 4300000
+    second: lengua
+  - first:
+      43: 4300002
+    second: DIENTE_SUP
+  - first:
+      43: 4300004
+    second: DIENTE_INF
+  - first:
+      43: 4300006
+    second: American_Buffalo_Body
+  - first:
+      43: 4300008
+    second: lengua_0
+  - first:
+      43: 4300010
+    second: DIENTE_SUP_0
+  - first:
+      43: 4300012
+    second: DIENTE_INF_0
+  - first:
+      43: 4300014
+    second: American_Buffalo_Body_0
+  - first:
+      74: 7400000
+    second: Walk_Fwd (Static)
+  - first:
+      74: 7400002
+    second: Walking_Fwd
+  - first:
+      74: 7400004
+    second: Running_Fwd
+  - first:
+      74: 7400006
+    second: Idle_01
+  - first:
+      74: 7400008
+    second: Idle_02
+  - first:
+      74: 7400010
+    second: Eating_01
+  - first:
+      74: 7400012
+    second: Eating_02
+  - first:
+      74: 7400014
+    second: Eating_03
+  - first:
+      74: 7400016
+    second: Resting_01
+  - first:
+      74: 7400018
+    second: Lay_Down
+  - first:
+      74: 7400020
+    second: Stand_Up
+  - first:
+      74: 7400022
+    second: Walking_Fwd(Static)
+  - first:
+      74: 7400024
+    second: Running_Fwd(Static)
+  - first:
+      74: 7400026
+    second: Attack_01
+  - first:
+      74: 7400028
+    second: Attack_02
+  - first:
+      74: 7400030
+    second: Walking_Left
+  - first:
+      74: 7400032
+    second: Walking_Right
+  - first:
+      74: 7400034
+    second: Walking_Left(Static)
+  - first:
+      74: 7400036
+    second: Walking_Right(Static)
+  - first:
+      74: 7400038
+    second: Running_Left
+  - first:
+      74: 7400040
+    second: Running_Right
+  - first:
+      74: 7400042
+    second: Running_Left(Static)
+  - first:
+      74: 7400044
+    second: Running_Right(Static)
+  - first:
+      74: 7400046
+    second: Walking_Bwd
+  - first:
+      74: 7400048
+    second: Walking_BwdLeft
+  - first:
+      74: 7400050
+    second: Walking_BwdRight
+  - first:
+      74: 7400052
+    second: Death_01
+  - first:
+      74: 7400054
+    second: Death_02
+  - first:
+      74: 7400056
+    second: Walking_Bwd(Static)
+  - first:
+      74: 7400058
+    second: Walking_BwdLeft(Static)
+  - first:
+      74: 7400060
+    second: Walking_BwdRight(Static)
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: American_Buffalo_Body
+  - first:
+      137: 13700002
+    second: DIENTE_INF
+  - first:
+      137: 13700004
+    second: DIENTE_SUP
+  - first:
+      137: 13700006
+    second: lengua
+  - first:
+      137: 13700008
+    second: American_Buffalo_Body_0
+  - first:
+      137: 13700010
+    second: DIENTE_INF_0
+  - first:
+      137: 13700012
+    second: DIENTE_SUP_0
+  - first:
+      137: 13700014
+    second: lengua_0
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking_Fwd
+      takeName: Walking_Fwd
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Fwd
+      takeName: Running_Fwd
+      internalID: 0
+      firstFrame: 11.3
+      lastFrame: 30.900002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_01
+      takeName: Idle_01
+      internalID: 0
+      firstFrame: 9
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_02
+      takeName: Idle_02
+      internalID: 0
+      firstFrame: 9
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating_01
+      takeName: Eating_01
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating_02
+      takeName: Eating_02
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eating_03
+      takeName: Eating_03
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Resting_01
+      takeName: Resting_01
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lay_Down
+      takeName: Lay_Down
+      internalID: 0
+      firstFrame: 4
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stand_Up
+      takeName: Stand_Up
+      internalID: 0
+      firstFrame: 10
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Fwd(Static)
+      takeName: Walking_Fwd
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Fwd(Static)
+      takeName: Running_Fwd
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_01
+      takeName: Attack_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_02
+      takeName: Attack_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Left
+      takeName: Walking_Left
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Right
+      takeName: Walking_Right
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Left(Static)
+      takeName: Walking_Left
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Right(Static)
+      takeName: Walking_Right
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Left
+      takeName: Running_Left
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Right
+      takeName: Running_Right
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Left(Static)
+      takeName: Running_Left
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Running_Right(Static)
+      takeName: Running_Right
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Bwd
+      takeName: Walking_Bwd
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_BwdLeft
+      takeName: Walking_BwdLeft
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_BwdRight
+      takeName: Walking_BwdRight
+      internalID: 0
+      firstFrame: 11
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_01
+      takeName: Death_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_02
+      takeName: Death_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_Bwd(Static)
+      takeName: Walking_Bwd
+      internalID: 0
+      firstFrame: 12
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_BwdLeft(Static)
+      takeName: Walking_BwdLeft
+      internalID: 0
+      firstFrame: 12
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking_BwdRight(Static)
+      takeName: Walking_BwdRight
+      internalID: 0
+      firstFrame: 12
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: American_Buffalo_Body
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ROOT
+        weight: 1
+      - path: Armature/ROOT/Bone_001
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_L/FF01_L/FF02_L/FF03_L/FF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/CLAVICLE_R/FF01_R/FF02_R/FF03_R/FF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/EAR_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/BODY01/BODY02/NECH01/NECK02/HEAD/JAW/TONGUE01/TONGUE02/TONGUE03
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_L/BF01_L/BF02_L/BF03_L/BF04_L/BF05_L
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/HIP_R/BF01_R/BF02_R/BF03_R/BF04_R/BF05_R
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01
+        weight: 1
+      - path: Armature/ROOT/Bone_001/SPRG02/TAIL01/TAIL02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 100
+    rootMotionBoneName: ROOT
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 03b8494b71f7ce048829e191eeb86820
+timeCreated: 1519830719
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: American_Buffalo_Body
+    100004: Armature
+    100006: BF01_L
+    100008: BF01_R
+    100010: BF02_L
+    100012: BF02_R
+    100014: BF03_L
+    100016: BF03_R
+    100018: BF04_L
+    100020: BF04_R
+    100022: BODY01
+    100024: BODY02
+    100026: Bone_001
+    100028: CLAVICLE_L
+    100030: CLAVICLE_R
+    100032: FF01_L
+    100034: FF01_R
+    100036: FF02_L
+    100038: FF02_R
+    100040: FF03_L
+    100042: FF03_R
+    100044: HEAD
+    100046: HIP_L
+    100048: HIP_R
+    100050: JAW
+    100052: NECH01
+    100054: NECK02
+    100056: ROOT
+    100058: SPRG02
+    100060: TAIL01
+    400000: //RootNode
+    400002: American_Buffalo_Body
+    400004: Armature
+    400006: BF01_L
+    400008: BF01_R
+    400010: BF02_L
+    400012: BF02_R
+    400014: BF03_L
+    400016: BF03_R
+    400018: BF04_L
+    400020: BF04_R
+    400022: BODY01
+    400024: BODY02
+    400026: Bone_001
+    400028: CLAVICLE_L
+    400030: CLAVICLE_R
+    400032: FF01_L
+    400034: FF01_R
+    400036: FF02_L
+    400038: FF02_R
+    400040: FF03_L
+    400042: FF03_R
+    400044: HEAD
+    400046: HIP_L
+    400048: HIP_R
+    400050: JAW
+    400052: NECH01
+    400054: NECK02
+    400056: ROOT
+    400058: SPRG02
+    400060: TAIL01
+    4300000: American_Buffalo_Body
+    9500000: //RootNode
+    13700000: American_Buffalo_Body
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
