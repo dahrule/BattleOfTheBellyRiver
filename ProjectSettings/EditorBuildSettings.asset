@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/FollowDeer/FollowDeer.unity
     guid: b70becfb123b9fc4582e99ea62ed85dd
@@ -26,15 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/VideoPlayer/VideoPlayer.unity
     guid: 9a603082a49774f4eb91091a800da2de
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/DroneVideo/DroneVideo.unity
     guid: f5305d598f8eeb34782bb798f7d14f2f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e244be179f402ef4e96af1c0c93b8269, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1689c86b7e3cf8943866aacb409e42c4, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 09280f597163b0995923961ab2b3b2ee, type: 2}
