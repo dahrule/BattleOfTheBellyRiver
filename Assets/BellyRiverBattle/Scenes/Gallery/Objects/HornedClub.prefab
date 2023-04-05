@@ -242,10 +242,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6120573354779118678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1968cfd9cc057f640bf13f188582efaf, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e1013aad6ef5943eba26b363adc7be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleAction: {fileID: -5623525351456269096, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  scaleAction: {fileID: 0}
   scaleFactor: 0.1
   displayTime: 3
   displayTimer: 0
