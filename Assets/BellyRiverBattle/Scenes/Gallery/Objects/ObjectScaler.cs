@@ -34,11 +34,13 @@ public class ObjectScaler : MonoBehaviour
 
     void OnEnable()
     {
+        if (scaleAction == null) return;
         scaleAction.action.performed += Scale;
     }
 
     void OnDisable()
     {
+        if (scaleAction == null) return;
         scaleAction.action.performed -= Scale;
     }
 

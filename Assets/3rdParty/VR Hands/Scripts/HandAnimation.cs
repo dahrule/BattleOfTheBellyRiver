@@ -19,11 +19,13 @@ public class HandAnimation : MonoBehaviour
 
     private void TriggerPress(InputAction.CallbackContext obj)
     {
+        if (handAnimator == null) return;
         handAnimator.SetFloat("Trigger",obj.ReadValue<float>());
     }
 
     private void GripPress(InputAction.CallbackContext obj)
     {
+        if (handAnimator == null) return;
         handAnimator.SetFloat("Grip", obj.ReadValue<float>());
     }
 }

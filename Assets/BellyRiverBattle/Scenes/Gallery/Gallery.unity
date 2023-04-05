@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18029143, g: 0.22572419, b: 0.30693057, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -169,6 +169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HornedClub
       objectReference: {fileID: 0}
+    - target: {fileID: 6355085777622683575, guid: 4b42e0d267a91f36dacf12dd6bced9de, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6898236606380300012, guid: 4b42e0d267a91f36dacf12dd6bced9de, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -230,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 7483193350006821995, guid: 8c2429d3e7584929ca61cb6bb6e813d9, type: 3}
       propertyPath: m_Name
       value: FlatStoneClub
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717143799107453939, guid: 8c2429d3e7584929ca61cb6bb6e813d9, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7823443152849112785, guid: 8c2429d3e7584929ca61cb6bb6e813d9, type: 3}
       propertyPath: m_RootOrder
@@ -625,6 +633,10 @@ PrefabInstance:
     - target: {fileID: 3922177451443313534, guid: 182b19b9ceb2ece83b867d38332d911e, type: 3}
       propertyPath: m_Name
       value: RedWhiteClub
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228658279945108521, guid: 182b19b9ceb2ece83b867d38332d911e, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4406085247073190340, guid: 182b19b9ceb2ece83b867d38332d911e, type: 3}
       propertyPath: m_RootOrder
