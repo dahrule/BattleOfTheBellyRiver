@@ -561,7 +561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1439869203627954253, guid: a6687a01df8786c43afba6f7ea17aef7, type: 3}
       propertyPath: _fadeDuration
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1439869203627954253, guid: a6687a01df8786c43afba6f7ea17aef7, type: 3}
       propertyPath: OnFadeInComplete.m_PersistentCalls.m_Calls.Array.size
