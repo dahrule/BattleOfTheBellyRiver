@@ -14,7 +14,6 @@
     "com.unity.xr.interaction.toolkit": "2.0.4",
     "com.unity.xr.oculus": "3.2.3",
     "com.unity.xr.openxr": "1.5.3",
-    "com.unity.xr.openxr.picoxr": "file:C:/Users/dahru/Downloads/PICO_Unity_OpenXR_PluginExperiment",
     "unity-dependencies-hunter": "https://github.com/AlexeyPerov/Unity-Dependencies-Hunter.git#upm",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
