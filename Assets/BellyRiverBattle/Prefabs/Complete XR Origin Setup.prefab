@@ -336,11 +336,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7720188428948809305, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_AudioClipForOnHoverEntered
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d4ffba877e11574b83dd66ffe09c3e2, type: 3}
+    - target: {fileID: 7720188428948809305, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_HapticSelectEnterIntensity
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7720188428948809305, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_PlayHapticsOnSelectEntered
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720188428948809305, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_PlayAudioClipOnHoverEntered
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7720188428948809307, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
@@ -377,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429936858030, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429974504712, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_SortingOrder
@@ -472,11 +480,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429974504713, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_AudioClipForOnHoverEntered
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d4ffba877e11574b83dd66ffe09c3e2, type: 3}
+    - target: {fileID: 7720188429974504713, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_HapticSelectEnterIntensity
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429974504713, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_PlayHapticsOnSelectEntered
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720188429974504713, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_PlayAudioClipOnHoverEntered
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429974504715, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
@@ -513,7 +529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7720188430477372657, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7720188430790242761, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_RootOrder

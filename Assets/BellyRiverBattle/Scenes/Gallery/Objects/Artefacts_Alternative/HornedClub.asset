@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1664699b65af0499ba42929b9d8f07, type: 3}
+  m_Name: HornedClub
+  m_EditorClassIdentifier: 
+  artefactPrefab: {fileID: 2035596948127950598, guid: bbc342b57e3871b4393a7aa7e1f13b9c, type: 3}
+  artefactName: Horned club
+  artefactInfo: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse
+    ut metus. Proin venenatis turpis sit amet ante consequat semper.   Aenean nunc.
+    Duis iaculis odio id lectus. Integer dapibus justo vitae elit. Nunc luctus, tortor
+    quis iaculis tempus, urna odio iaculis erat, imperdiet lobortis orci lectus at
+    eros. Ut a velit id odio malesuada nonummy. Aenean cursus metus a purus. Duis
+    dapibus odio a enim.   Aenean cursus metus a purus. Duis dapibus odio a enim.
+    Aenean cursus metus a purus
+  artefactGraphic: {fileID: 0}
