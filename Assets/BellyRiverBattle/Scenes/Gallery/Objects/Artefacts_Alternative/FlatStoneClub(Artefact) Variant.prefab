@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1166357486, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: artefact
       value: 
-      objectReference: {fileID: 11400000, guid: a4b55571b04a61c48aa47c3ecc976eee, type: 2}
+      objectReference: {fileID: 11400000, guid: a62853ae2432ea5439413003c8b35882, type: 2}
     - target: {fileID: 888669607237383807, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.01124

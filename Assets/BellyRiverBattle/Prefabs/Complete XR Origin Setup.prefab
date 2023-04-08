@@ -256,6 +256,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7720188428948809304, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720188428948809304, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.g
       value: 1
       objectReference: {fileID: 0}
@@ -398,6 +402,10 @@ PrefabInstance:
     - target: {fileID: 7720188429974504712, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_Parameters.shadowBias
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720188429974504712, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7720188429974504712, guid: 9649c516c82251843a0de5020e954d6a, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.g

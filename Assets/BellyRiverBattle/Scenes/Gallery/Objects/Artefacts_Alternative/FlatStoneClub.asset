@@ -16,3 +16,4 @@ MonoBehaviour:
   artefactName: Flat stone club
   artefactInfo: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
   artefactGraphic: {fileID: 0}
+  scalable: 1
