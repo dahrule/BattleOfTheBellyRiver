@@ -36,18 +36,34 @@ public class OculusButtonHighlighter : MonoBehaviour
         //ShowController(true);
     }
 
-    void ShowController(bool show)
+    void ShowController2(bool show)
     {
         //swap between hand and game controller
         controller.gameObject.SetActive(show);
         hand.gameObject.SetActive(!show);
     }
 
+    [ContextMenu("ShowController")]
+    public void ShowController()
+    {
+        //swap between hand and oculus XRcontroller game objects
+        controller.gameObject.SetActive(true);
+        hand.gameObject.SetActive(false);
+    }
+
+    [ContextMenu("HideController")]
+    public void HideController()
+    {
+        //swap between hand and oculus XRcontroller game objects
+        controller.gameObject.SetActive(false);
+        hand.gameObject.SetActive(true);
+    }
+
     public void IndicateButtonOnController(OculusControllerType controllerType, OculusButton button)
     {
         if (this.controllerType != controllerType) return;
 
-        ShowController(true);
+        ShowController();
         TriggerHapticFeedback();
         PlaceMarkerOverButton(button);
     }
