@@ -20,7 +20,7 @@ public enum OculusButton
 /// <summary>
 ///Creates a message for a specified action's corresponding button, and highlights the button on a Controller, if one is given.
 /// </summary>
-public class OculusButtonActionPrompt : MonoBehaviour
+public class OculusButtonActionPrompt : ActionPrompt
 {   
     enum ButtonAction { Press, PressHold, PressTwice, Use }
 
@@ -36,10 +36,8 @@ public class OculusButtonActionPrompt : MonoBehaviour
 
     void Start()
     {
-        CreateMessage();
-        
-        if (controllerHighlighter != null)
-            controllerHighlighter.IndicateButtonOnController(controllerType,button);
+        if (enabledAtStart) Display();
+        else Hide();
     }
 
     void CreateMessage()
@@ -80,5 +78,19 @@ public class OculusButtonActionPrompt : MonoBehaviour
             // Add more button mappings as needed
         };
         }
+    }
+
+    public override void Hide()
+    {
+        controllerHighlighter.HideController();
+        base.Hide();
+    }
+
+    public override void Display()
+    {
+        base.Display();
+        CreateMessage();
+        if (controllerHighlighter != null)
+            controllerHighlighter.IndicateButtonOnController(controllerType, button);
     }
 }

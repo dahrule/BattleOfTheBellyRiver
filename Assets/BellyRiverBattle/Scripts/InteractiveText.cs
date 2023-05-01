@@ -3,7 +3,7 @@ using UnityEngine;
 using TS.GazeInteraction;
 
 [RequireComponent(typeof(AudioSource))]
-public class InteractiveText : MonoBehaviour
+public class InteractiveText : ActionPrompt
 {
     [SerializeField] float _secondsToReappear=5*60; //5 min
     [SerializeField] AudioClip _audioClip;
@@ -20,18 +20,23 @@ public class InteractiveText : MonoBehaviour
 
     private void Start()
     {
-        PopUp();
+        Display();
+    }
 
+    public override void Display()
+    {
+        base.Display();
+        PopUp();
         _timeCount = TimeCountRoutine();
         StartCoroutine(_timeCount);
     }
 
     [ContextMenu("DisableObject")]
-    public void DisableInteractiveText()
+    public override void Hide()
     {
         if(_timeCount!=null) 
             StopCoroutine(_timeCount);
-        this.gameObject.SetActive(false);
+        base.Hide();
     }
 
     [ContextMenu("PopUp")]
