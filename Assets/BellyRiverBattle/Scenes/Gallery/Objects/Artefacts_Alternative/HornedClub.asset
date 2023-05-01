@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: HornedClub
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 2035596948127950598, guid: bbc342b57e3871b4393a7aa7e1f13b9c, type: 3}
-  artefactName: Horned club
-  artefactInfo: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse
-    ut metus. Proin venenatis turpis sit amet ante consequat semper.   Aenean nunc.
-    Duis iaculis odio id lectus. Integer dapibus justo vitae elit. Nunc luctus, tortor
-    quis iaculis tempus, urna odio iaculis erat, imperdiet lobortis orci lectus at
-    eros. Ut a velit id odio malesuada nonummy. Aenean cursus metus a purus. Duis
-    dapibus odio a enim.   Aenean cursus metus a purus. Duis dapibus odio a enim.
-    Aenean cursus metus a purus
-  artefactGraphic: {fileID: 0}
+  artefactName: 'War Club with Horn end. '
+  artefactInfo: "Wooden shaft has leather braids on either end and a hand strap.
+    One item has liens engraved on the side.\nHorn-headed clubs appear to be unusual
+    among the Siksikaitsitapi (Clark Wissler does not mention the form in his 1910
+    monograph on the Material Culture of the Blackfoot, nor is there an example in
+    the Kainai collections at the Field Museum).  \n"
+  artefactGraphic: {fileID: 21300000, guid: 69e850fe7112a0943bd39b66b4caa08b, type: 3}
+  scalable: 0

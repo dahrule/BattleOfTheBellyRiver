@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActionPromptSequencer : MonoBehaviour
 {
-    [SerializeField] List<ActionPrompt> promptQueue = new();
+    [SerializeField] List<TextPrompt> promptQueue = new();
     int currentElementIndex = 0;
 
 
@@ -13,12 +13,12 @@ public class ActionPromptSequencer : MonoBehaviour
         
     }
 
-    public ActionPrompt DequeuePrompt()
+    public TextPrompt DequeuePrompt()
     {
         if (promptQueue.Count == 0)
             return null;
 
-        ActionPrompt prompt = promptQueue[0];
+        TextPrompt prompt = promptQueue[0];
         promptQueue.RemoveAt(0);
         return prompt;
     }

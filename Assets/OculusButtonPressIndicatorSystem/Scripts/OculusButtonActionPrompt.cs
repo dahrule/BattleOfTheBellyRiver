@@ -1,5 +1,4 @@
 using UnityEngine;
-using TMPro;
 using System.Collections.Generic;
 
 public enum OculusControllerType
@@ -20,18 +19,17 @@ public enum OculusButton
 /// <summary>
 ///Creates a message for a specified action's corresponding button, and highlights the button on a Controller, if one is given.
 /// </summary>
-public class OculusButtonActionPrompt : ActionPrompt
+public class OculusButtonActionPrompt : TextPrompt
 {   
     enum ButtonAction { Press, PressHold, PressTwice, Use }
 
+    [Header("OculusButtonAction properties")]
     [SerializeField] OculusControllerType controllerType;
     [SerializeField] OculusButton button;
     [SerializeField] ButtonAction action;
-
     [Tooltip("Text describing the result of interacting with a button.")]
     [SerializeField] string consequence;
-
-    [SerializeField] TextMeshProUGUI TextObject;
+    [Tooltip("The controller this prompt is refering. Must contain XRController and OculusButtonHighlighter components")]
     [SerializeField] OculusButtonHighlighter controllerHighlighter;
 
     void Start()
