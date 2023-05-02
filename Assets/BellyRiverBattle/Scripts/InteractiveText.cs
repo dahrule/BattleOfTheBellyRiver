@@ -2,11 +2,9 @@ using System.Collections;
 using UnityEngine;
 using TS.GazeInteraction;
 
-[RequireComponent(typeof(AudioSource))]
-public class InteractiveText : ActionPrompt
+public class InteractiveText : TextPrompt
 {
     [SerializeField] float _secondsToReappear=5*60; //5 min
-    [SerializeField] AudioClip _audioClip;
     [SerializeField] FadeText _fadeText;
     [SerializeField] GazeInteractable _gazeInteractable;
 
@@ -39,18 +37,18 @@ public class InteractiveText : ActionPrompt
         base.Hide();
     }
 
-    [ContextMenu("PopUp")]
-    public void PopUp()
+    /*[ContextMenu("PopUp")]*/
+    /*public void PopUp()
     {
         if (_fadeText == null) return;
 
         _fadeText.Show();
-        if (_audioClip != null) AudioSource.PlayClipAtPoint(_audioClip, _position); //Play feedback 
+        if (popUpSfx != null) AudioSource.PlayClipAtPoint(popUpSfx, _position); //Play feedback 
         if (_gazeInteractable != null) _gazeInteractable.Enable(true);
-    }
+    }*/
 
-    [ContextMenu("Fade")]
-    public void Fade()
+    /*[ContextMenu("Fade")]*/
+   /* public void Fade()
     {
         if (_fadeText == null) return;
 
@@ -66,7 +64,7 @@ public class InteractiveText : ActionPrompt
         }
        
         _fadeText.FadeIn();
-    }
+    }*/
     IEnumerator TimeCountRoutine()
     {
         float count = 0;

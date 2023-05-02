@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 5562729378440978570, guid: 2e029ff19d1a63c49813fd8cab3e78c2, type: 3}
   artefactName: Red-white club
-  artefactInfo: Lonenatis turpis situnc. Duis iaculis odio id lectu.ibus justo vitae
-    elit. Nunc luctus, tortor quis iaculis tempus, urna odio iaculis erat, imperdiet
-    lobortis orci lectus at eros. Ut a velit id odio malesuada nonummy. Aenean cursus
-    metus a purus. Duis dapibus odio a enim.   Aenean cursus metus a purus. Duis
-    dapibus odio a enim. Aenean cursus metus a purus
+  artefactInfo: "This may be the club Mike Mountain Horse referred to in describing
+    Thyrza Burkitt\u2019s collection in 1939 as: \u201Ca \u2018Buffalo Club\u2019
+    of the Crow Flag family [Crow Flag was Mike\u2019s maternal grandfather], is
+    a covered stone affair, attached tThis may be the club Mike Mountain Horse referred
+    to in describing Thyrza Burkitt\u2019s collection in 1939 as; \u201Ca \u2018Buffalo
+    Club\u2019 of the Crow Flag family [Crow Flag was Mike\u2019s maternal grandfather],
+    is a covered stone affair, attached to a long handle, it was cherished by my
+    grandfather [Crow Flag] as a memento of his buffalo days.\u201D  "
   artefactGraphic: {fileID: 0}
+  scalable: 0

@@ -31,18 +31,7 @@ public class OculusButtonHighlighter : MonoBehaviour
             buttonsDict.Add(keys[i], values[i]);
         }
     }
-    void Start()
-    {
-        //ShowController(true);
-    }
-
-    void ShowController2(bool show)
-    {
-        //swap between hand and game controller
-        controller.gameObject.SetActive(show);
-        hand.gameObject.SetActive(!show);
-    }
-
+  
     [ContextMenu("ShowController")]
     public void ShowController()
     {
@@ -70,7 +59,13 @@ public class OculusButtonHighlighter : MonoBehaviour
 
     private void PlaceMarkerOverButton(OculusButton button)
     {
-        if (buttonsDict[button].position == null) return;
+        if (buttonsDict[button].position == null && buttonMarkerPrefab==null) return;
+
+        Vector3 markerPosition = buttonsDict[button].position;
+        Quaternion markerRotation = buttonsDict[button].rotation;
+        Transform parent = this.transform;
+        GameObject.Instantiate(buttonMarkerPrefab, markerPosition,markerRotation, parent);
+        
         buttonMarkerPrefab.transform.position = buttonsDict[button].position;
     }
 
