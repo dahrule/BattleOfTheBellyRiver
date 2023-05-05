@@ -10,14 +10,26 @@ PrefabInstance:
     - target: {fileID: 888669607939839341, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -9032557090061056480, guid: 9e9efe346facc9edb8cc443fdd38f62f, type: 3}
+      objectReference: {fileID: -6186515157399062709, guid: 6472ca46e098fdd47920bea0b879cfc7, type: 3}
     - target: {fileID: 888669607939839342, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e85d15ecf653c169cbe91fa5b4d6f48e, type: 2}
+      objectReference: {fileID: 4916152428183953780, guid: 6472ca46e098fdd47920bea0b879cfc7, type: 3}
+    - target: {fileID: 888669607939839343, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 888669607939839343, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 888669607939839343, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5791746762880716138, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_Name
-      value: BulletCopper(Artefact)
+      value: BulletCopper(Artefact) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5791746762880716138, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_IsActive
@@ -33,15 +45,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.136
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.605
+      value: 0.515
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.3446
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -89,5 +101,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.013835907, y: 0.03582523, z: 0.024773136}
+  m_Center: {x: 0.0017781258, y: 0.0028549088, z: -1.799501e-10}

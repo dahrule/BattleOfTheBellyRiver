@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 661366459496474950}
   - component: {fileID: 3713831133094806800}
-  - component: {fileID: 7587935377243896108}
   m_Layer: 0
   m_Name: RightOculusController
   m_TagString: Untagged
@@ -211,25 +210,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
---- !u!114 &7587935377243896108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2575085428250327839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0283ae371f5c60e418521a805277de37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 1
-  controller: {fileID: 3713831133094806800}
-  hand: {fileID: 7720188429042462510}
-  buttonMarkerPrefab: {fileID: 0}
-  duration: 0.6
-  amplitude: 1.5
-  buttons: []
 --- !u!1 &4143364119683570335
 GameObject:
   m_ObjectHideFlags: 0
