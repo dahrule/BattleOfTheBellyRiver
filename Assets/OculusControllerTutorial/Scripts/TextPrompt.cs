@@ -8,15 +8,19 @@ public class TextPrompt : MonoBehaviour
     [Header("TextPrompt properties")]
     [SerializeField] protected bool enabledAtStart = false;
     [SerializeField] protected AudioClip popUpSfx;
+    [SerializeField] protected AudioClip actionCompleteSfx;
     [SerializeField] protected float _secondsToReappear = 3 * 60;
     [SerializeField] protected TextMeshProUGUI TextObject;
 
     Vector3 _position;
     IEnumerator _timeCount;
     public FadeText fadeTextComponent;
+    AudioSource _audioSource;
 
     private void Awake()
     {
+        _audioSource = GetComponent<AudioSource>();
+
         if(TextObject!=null)
             fadeTextComponent = TextObject.GetComponent<FadeText>();
     }
@@ -40,7 +44,7 @@ public class TextPrompt : MonoBehaviour
         if (TextObject == null) return;
 
         if (fadeTextComponent != null) fadeTextComponent.Show();
-        if (popUpSfx != null) AudioSource.PlayClipAtPoint(popUpSfx, _position); //Audio signal to indicate that the text has appeared.
+        if (popUpSfx != null) _audioSource.PlayOneShot(popUpSfx); //Audio signal to indicate that the text has appeared.
     }
 
     [ContextMenu("Fade")]
@@ -73,5 +77,10 @@ public class TextPrompt : MonoBehaviour
                 PopUp();
             }
         }
+    }
+
+    public void PlayActionCompleteSound()
+    {
+        _audioSource.PlayOneShot(actionCompleteSfx);
     }
 }

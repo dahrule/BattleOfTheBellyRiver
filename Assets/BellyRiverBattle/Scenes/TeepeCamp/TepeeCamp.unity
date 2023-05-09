@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673010452}
     m_Modifications:
+    - target: {fileID: 676203570173173077, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694697707007318321, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5694697707007318324, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: OnGazeActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -786,6 +794,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673010452}
     m_Modifications:
+    - target: {fileID: 676203570173173077, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694697707007318321, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5694697707007318324, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: OnGazeActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -882,6 +898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Origin Setup
       objectReference: {fileID: 0}
+    - target: {fileID: 3741147723033835472, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3741147723033835473, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -976,8 +996,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2171311, y: 1, z: 1}
-  m_Center: {x: 0.021195857, y: 0, z: -2.3479418e-10}
+  m_Size: {x: 2.1480787, y: 1.8017385, z: 2.2306406}
+  m_Center: {x: 0.16654228, y: 0.40086925, z: -0.10449898}
 --- !u!4 &1401838438
 Transform:
   m_ObjectHideFlags: 0
@@ -1269,6 +1289,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673010452}
     m_Modifications:
+    - target: {fileID: 676203570173173077, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694697707007318321, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5694697707007318324, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: OnGazeActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

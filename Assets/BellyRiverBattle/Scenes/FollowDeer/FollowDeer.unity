@@ -750,6 +750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enabledAtStart: 0
   popUpSfx: {fileID: 0}
+  actionCompleteSfx: {fileID: 0}
   _secondsToReappear: 10
   TextObject: {fileID: 1113343149}
   fadeTextComponent: {fileID: 0}
@@ -6365,6 +6366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerAction: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  actionPrompt: {fileID: 622490903}
   OnActionComplete:
     m_PersistentCalls:
       m_Calls:
@@ -6927,6 +6929,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1082778348}
     m_Modifications:
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: popUpSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: actionCompleteSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 966861e449f3fa44cb1682ff4cb2733a, type: 3}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerHighlighter
       value: 
       objectReference: {fileID: 249846675}
@@ -6982,6 +6992,18 @@ PrefabInstance:
       propertyPath: _referenceObject
       value: 
       objectReference: {fileID: 1855844699}
+    - target: {fileID: 6110793004006818541, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6110793004006818541, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6110793004006818541, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
 --- !u!1001 &1992875031359178139
