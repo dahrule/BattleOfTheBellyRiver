@@ -32,14 +32,10 @@ public class OculusButtonActionPrompt : TextPrompt
     [Tooltip("The controller this prompt is refering. Must contain XRController and OculusButtonHighlighter components")]
     [SerializeField] OculusButtonHighlighter controllerHighlighter;
 
-    void Start()
-    {
-        if (enabledAtStart) Display();
-        else Hide();
-    }
-
     void CreateMessage()
     {
+        if (_TextObject == null) return;
+
         // Determine the button mapping to use based on the controller type
         Dictionary<OculusButton, string> buttonMapping = GetButtonMapping(controllerType);
 
@@ -51,7 +47,7 @@ public class OculusButtonActionPrompt : TextPrompt
 
         // Build the message string
         string message = $"{action} the {buttonName} {buttonWord} on the {controllerType} controller to {consequence}";
-        TextObject.text = message;
+        _TextObject.text = message;
     }
 
     Dictionary<OculusButton, string> GetButtonMapping(OculusControllerType controllerType)

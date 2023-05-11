@@ -23,7 +23,6 @@ public class OculusButtonActionComplete : MonoBehaviour
         if (OnActionComplete == null) return;
 
         OnActionComplete?.Invoke();
-        actionPrompt.PlayActionCompleteSound();
         this.gameObject.SetActive(false);
     }
 }

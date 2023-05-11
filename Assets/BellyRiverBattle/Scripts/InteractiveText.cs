@@ -37,18 +37,18 @@ public class InteractiveText : TextPrompt
         base.Hide();
     }
 
-    /*[ContextMenu("PopUp")]*/
-    /*public void PopUp()
+    [ContextMenu("PopUp")]
+    public void PopUp()
     {
         if (_fadeText == null) return;
 
         _fadeText.Show();
-        if (popUpSfx != null) AudioSource.PlayClipAtPoint(popUpSfx, _position); //Play feedback 
+        if (_displaySFX != null) AudioSource.PlayClipAtPoint(_displaySFX, _position); //Play feedback 
         if (_gazeInteractable != null) _gazeInteractable.Enable(true);
-    }*/
+    }
 
-    /*[ContextMenu("Fade")]*/
-   /* public void Fade()
+    [ContextMenu("Fade")]
+    public void Fade()
     {
         if (_fadeText == null) return;
 
@@ -57,14 +57,14 @@ public class InteractiveText : TextPrompt
         //Assumes that _secondsToReapper is significantly longer than the text fading time.
         //If not the case, sync issues may appear between the sound sfx and the visibility of text.
         //Alternatively, use a callback to the OnFadeComplete events of the Fade class.
-        if(_timeCount!=null)
+        if (_timeCount != null)
         {
             StopCoroutine(_timeCount);
             StartCoroutine(_timeCount);
         }
-       
+
         _fadeText.FadeIn();
-    }*/
+    }
     IEnumerator TimeCountRoutine()
     {
         float count = 0;
