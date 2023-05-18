@@ -27,7 +27,7 @@ public class ArtefactInfoDisplayer : MonoBehaviour
         ArtefactGrabInteractable.OnObjectReleased-= (Artefact artefact) => DisplayDefaultInfo();
     }
 
-    private void DisplayArtefactInfo(Artefact artefact)
+    public void DisplayArtefactInfo(Artefact artefact)
     {
         if (artefact == null) return;
         
@@ -36,7 +36,7 @@ public class ArtefactInfoDisplayer : MonoBehaviour
         if (scaleIntructionsPanel != null) scaleIntructionsPanel.SetActive(artefact.scalable);
     }
 
-    private void DisplayDefaultInfo()
+    public void DisplayDefaultInfo()
     {
         HeaderText.text = defaultHeaderText;
         Text.text = defaultText;

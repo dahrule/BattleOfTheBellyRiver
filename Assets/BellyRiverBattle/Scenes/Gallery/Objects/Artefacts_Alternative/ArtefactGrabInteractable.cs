@@ -13,19 +13,15 @@ public class ArtefactGrabInteractable : XRGrabInteractable
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
         base.OnSelectEntered(args);
-
-        // Raise the OnObjectSelected event
-        //OnObjectSelected?.Invoke(this.artefact);
+        OnObjectSelected?.Invoke(this.artefact);
     }
     protected override void OnSelectExited(SelectExitEventArgs args)
     {
         base.OnSelectExited(args);
-
-        // Raise the OnObjectReleased event
-        //OnObjectReleased?.Invoke(this.artefact);
+        OnObjectReleased?.Invoke(this.artefact);
     }
 
-    protected override void OnHoverEntered(HoverEnterEventArgs args)
+    /*protected override void OnHoverEntered(HoverEnterEventArgs args)
     {
         base.OnHoverEntered(args);
         OnObjectSelected?.Invoke(this.artefact);
@@ -35,6 +31,6 @@ public class ArtefactGrabInteractable : XRGrabInteractable
     {
         base.OnHoverExited(args);
         OnObjectReleased?.Invoke(this.artefact);
-    }
+    }*/
 }
 
