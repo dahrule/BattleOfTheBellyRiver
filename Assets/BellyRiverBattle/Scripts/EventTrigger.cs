@@ -7,6 +7,7 @@ public class EventTrigger : MonoBehaviour
     [SerializeField] string[] activatorTags;
     [SerializeField] int numberOfEventCanTrigger = 1;
     [SerializeField] UnityEvent onTriggerEnter;
+    [SerializeField] UnityEvent onTriggerExit;
 
     int counter=0;
 
@@ -20,6 +21,16 @@ public class EventTrigger : MonoBehaviour
         {
             onTriggerEnter?.Invoke();
             counter++;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (activatorTags == null) return;
+
+
+        if (IsActivatorColliding(other))
+        {
+            onTriggerExit?.Invoke();
         }
     }
 
