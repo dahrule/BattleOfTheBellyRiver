@@ -7045,7 +7045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[0]
@@ -7071,6 +7071,10 @@ PrefabInstance:
       propertyPath: _videoClips.Array.data[5]
       value: 
       objectReference: {fileID: 32900000, guid: 86a9a17095deeaa429613e4453d3fbd9, type: 3}
+    - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
+      propertyPath: _videoClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 32900000, guid: 7cfbbd770952c554499a31b521e7fb3c, type: 3}
     - target: {fileID: 4469398616505040820, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: m_RootOrder
       value: 2
