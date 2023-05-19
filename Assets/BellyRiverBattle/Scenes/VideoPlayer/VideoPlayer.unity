@@ -7050,27 +7050,27 @@ PrefabInstance:
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[0]
       value: 
-      objectReference: {fileID: 32900000, guid: 2fee57629d4dd8746baeca6beaad8543, type: 3}
+      objectReference: {fileID: 32900000, guid: cbb02ec956f4e904d83136faec08b1e1, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[1]
       value: 
-      objectReference: {fileID: 32900000, guid: 84282ed0a403ae944976d75ade570a60, type: 3}
+      objectReference: {fileID: 32900000, guid: 0bf6ab34adcf71d4199c02a81df2e091, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[2]
       value: 
-      objectReference: {fileID: 32900000, guid: e897d7b066893624dad413650ae2961b, type: 3}
+      objectReference: {fileID: 32900000, guid: 772d01edd48fc9f49888d96c7b887e54, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[3]
       value: 
-      objectReference: {fileID: 32900000, guid: 39121ce141059a6408cb61bfcb6df5da, type: 3}
+      objectReference: {fileID: 32900000, guid: 25f8688328c3d424eb7465367bc8ab70, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[4]
       value: 
-      objectReference: {fileID: 32900000, guid: d306c4305e585a348810bcd4f0791256, type: 3}
+      objectReference: {fileID: 32900000, guid: 16214d2c2c38f464b8a268d919e480bb, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[5]
       value: 
-      objectReference: {fileID: 32900000, guid: 90dccf599d36ba240af26a6d1c53e312, type: 3}
+      objectReference: {fileID: 32900000, guid: 86a9a17095deeaa429613e4453d3fbd9, type: 3}
     - target: {fileID: 4469398616505040820, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: m_RootOrder
       value: 2
