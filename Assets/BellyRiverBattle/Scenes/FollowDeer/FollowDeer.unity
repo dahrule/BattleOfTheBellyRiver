@@ -342,6 +342,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &249846675 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 249846675, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
@@ -528,6 +531,10 @@ PrefabInstance:
     - target: {fileID: 426212, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282500, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
@@ -7263,6 +7270,10 @@ PrefabInstance:
     - target: {fileID: 7182259108090619923, guid: b9979139432aab24f93333d262b466b2, type: 3}
       propertyPath: m_Name
       value: AudioCue-Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182259108090620140, guid: b9979139432aab24f93333d262b466b2, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7182259108090620141, guid: b9979139432aab24f93333d262b466b2, type: 3}
       propertyPath: m_RootOrder
