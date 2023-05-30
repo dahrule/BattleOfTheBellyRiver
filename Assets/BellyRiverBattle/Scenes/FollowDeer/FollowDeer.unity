@@ -342,6 +342,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &249846675 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 249846675, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
@@ -1028,8 +1031,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Battle of the Belly River
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 48d1a79144563ee47b45279ae9fccf78, type: 2}
-  m_sharedMaterial: {fileID: 516395361934424493, guid: 48d1a79144563ee47b45279ae9fccf78, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1053,7 +1056,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.5
+  m_fontSize: 22.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
