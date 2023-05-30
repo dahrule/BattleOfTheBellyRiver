@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.774
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 89154583}
-  m_IndirectSpecularColor: {r: 0.0019725424, g: 0.0022600915, b: 0.0028870075, a: 0.774}
+  m_IndirectSpecularColor: {r: 0.0019764467, g: 0.002264942, b: 0.0028934192, a: 0.774}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -386,7 +386,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5005,7 +5005,7 @@ PrefabInstance:
       objectReference: {fileID: 3634160251331904927, guid: 5194a5c64866da946a01778a2aa24517, type: 2}
     - target: {fileID: 8282500, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
