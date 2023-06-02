@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029143, g: 0.22572419, b: 0.30693057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -237,8 +237,12 @@ PrefabInstance:
 '
       objectReference: {fileID: 0}
     - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
@@ -791,11 +795,11 @@ PrefabInstance:
     - target: {fileID: 1439869203627954255, guid: a6687a01df8786c43afba6f7ea17aef7, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 48d1a79144563ee47b45279ae9fccf78, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 1439869203627954255, guid: a6687a01df8786c43afba6f7ea17aef7, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 516395361934424493, guid: 48d1a79144563ee47b45279ae9fccf78, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6687a01df8786c43afba6f7ea17aef7, type: 3}
 --- !u!65 &1109823156 stripped
@@ -933,8 +937,12 @@ PrefabInstance:
 '
       objectReference: {fileID: 0}
     - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
@@ -1107,6 +1115,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1539514413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1298,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8282500, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01ac61172cf97144dbbfbc83fc317917, type: 3}
 --- !u!1001 &1915679960
@@ -1299,6 +1314,10 @@ PrefabInstance:
     - target: {fileID: 7182259108090619923, guid: b9979139432aab24f93333d262b466b2, type: 3}
       propertyPath: m_Name
       value: AudioCue-Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182259108090620140, guid: b9979139432aab24f93333d262b466b2, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7182259108090620141, guid: b9979139432aab24f93333d262b466b2, type: 3}
       propertyPath: m_RootOrder
@@ -1524,8 +1543,12 @@ PrefabInstance:
       value: Listen to the Story of The Belly River Battle
       objectReference: {fileID: 0}
     - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 6383718761742998206, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c93cd4ceaedd74d9fd292961d545d9, type: 3}

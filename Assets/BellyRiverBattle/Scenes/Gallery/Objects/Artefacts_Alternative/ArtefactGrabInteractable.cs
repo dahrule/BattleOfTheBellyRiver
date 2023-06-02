@@ -10,6 +10,14 @@ public class ArtefactGrabInteractable : XRGrabInteractable
     public static event UnityAction<Artefact> OnObjectSelected;
     public static event UnityAction<Artefact> OnObjectReleased;
 
+    private Vector3 positionAtStart;
+    private Quaternion rotationAtStart;
+
+    private void Start()
+    {
+        positionAtStart = this.transform.position;
+        rotationAtStart = this.transform.rotation;
+    }
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
         base.OnSelectEntered(args);
@@ -21,16 +29,9 @@ public class ArtefactGrabInteractable : XRGrabInteractable
         OnObjectReleased?.Invoke(this.artefact);
     }
 
-    /*protected override void OnHoverEntered(HoverEnterEventArgs args)
+    public void ResetTransform()
     {
-        base.OnHoverEntered(args);
-        OnObjectSelected?.Invoke(this.artefact);
+        this.transform.SetPositionAndRotation(positionAtStart, rotationAtStart);
     }
-
-    protected override void OnHoverExited(HoverExitEventArgs args)
-    {
-        base.OnHoverExited(args);
-        OnObjectReleased?.Invoke(this.artefact);
-    }*/
 }
 
