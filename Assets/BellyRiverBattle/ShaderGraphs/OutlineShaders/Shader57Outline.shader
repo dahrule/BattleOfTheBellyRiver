@@ -2,7 +2,7 @@
 
     Properties {
         _OutlineColor ("Outline Color", Color) = (0, 0, 0, 1)
-        _OutlineWidth ("Outline Width", Range(0, 0.01)) = 0.03
+        _OutlineWidth ("Outline Width", Range(0, 0.05)) = 0.03
     }
 
     Subshader {

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader57OutlineMat
+  m_Name: Shader57OutlineMat_Deer
   m_Shader: {fileID: 4800000, guid: 297e6724774bd44449401ccd11471a02, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -107,7 +107,7 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 0.01
+    - _OutlineWidth: 0.0001
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
