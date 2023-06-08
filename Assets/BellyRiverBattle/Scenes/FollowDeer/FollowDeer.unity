@@ -458,7 +458,7 @@ PrefabInstance:
     - target: {fileID: 2659064551368648528, guid: 527cba86ef61cd34b85a556bbda77eb8, type: 3}
       propertyPath: OnGazeEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 338367484}
+      objectReference: {fileID: 0}
     - target: {fileID: 2659064551368648528, guid: 527cba86ef61cd34b85a556bbda77eb8, type: 3}
       propertyPath: OnGazeActivated.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 2
@@ -594,40 +594,6 @@ SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8711275776816403661, guid: 527cba86ef61cd34b85a556bbda77eb8, type: 3}
   m_PrefabInstance: {fileID: 338367479}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &338367481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6440365159925311725, guid: 527cba86ef61cd34b85a556bbda77eb8, type: 3}
-  m_PrefabInstance: {fileID: 338367479}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &338367484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338367481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f7b187428519474db57076680c22084, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materialList:
-  - Name: NameHere
-    mesh: {fileID: 338367480}
-    materials:
-    - {fileID: 2100000, guid: 6c2e298cb5d084c7f80f49eafe18c5d7, type: 2}
-    Linked: 0
-    Master: 0
-    current: 0
-    HasLODs: 0
-    LODs: []
-    indexM: 1
-    OnMaterialChanged:
-      m_PersistentCalls:
-        m_Calls: []
-  showMeshesList: 1
-  changeHidden: 0
-  random: 0
 --- !u!1001 &377190258
 PrefabInstance:
   m_ObjectHideFlags: 0
