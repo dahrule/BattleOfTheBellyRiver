@@ -179,11 +179,11 @@ PrefabInstance:
       objectReference: {fileID: 177749342}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: consequence
-      value: grab.
+      value: grab while pointing or touching an object.
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: _enabledAtStart
@@ -191,6 +191,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerHighlighter
+      value: 
+      objectReference: {fileID: 1259668529}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1424042429}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[1]
       value: 
       objectReference: {fileID: 1259668529}
     - target: {fileID: 6110793004006818530, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
@@ -815,11 +827,11 @@ PrefabInstance:
       objectReference: {fileID: 673915646}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: consequence
-      value: grab.
+      value: grab while pointing or touching an object.
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: _enabledAtStart
@@ -827,6 +839,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerHighlighter
+      value: 
+      objectReference: {fileID: 1259668529}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1424042429}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[1]
       value: 
       objectReference: {fileID: 1259668529}
     - target: {fileID: 6110793004006818530, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
@@ -2380,12 +2404,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1016627291}
     m_Modifications:
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: button
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: _TextObject
       value: 
       objectReference: {fileID: 1423793825}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: consequence
-      value: move around
+      value: move around.
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerType
@@ -2397,6 +2425,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerHighlighter
+      value: 
+      objectReference: {fileID: 1424042429}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[0]
       value: 
       objectReference: {fileID: 1424042429}
     - target: {fileID: 6110793003377726137, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
@@ -2505,6 +2541,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089581413, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104604944, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}
+      propertyPath: controllerType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2858279860337351432, guid: 9d93f5c5ffa3e3b4f8db198a0b1f27de, type: 3}

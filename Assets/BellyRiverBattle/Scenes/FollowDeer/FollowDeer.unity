@@ -7088,11 +7088,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1089850601776602166}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: consequence
+      value: rotate the view.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: _enabledAtStart
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
       propertyPath: controllerHighlighter
+      value: 
+      objectReference: {fileID: 249846675}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089850602365233442, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}
+      propertyPath: controllers.Array.data[0]
       value: 
       objectReference: {fileID: 249846675}
     - target: {fileID: 6110793004006818530, guid: a840b14b65b9d414ba28c77c421f5798, type: 3}

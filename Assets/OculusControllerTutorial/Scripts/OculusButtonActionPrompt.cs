@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public enum OculusControllerType
 {
-    Left, Right
+    Left, Right, Any
 }
 public enum OculusButton
 {
@@ -30,7 +30,7 @@ public class OculusButtonActionPrompt : TextPrompt
     [Tooltip("Text describing the result of interacting with a button.")]
     [SerializeField] string consequence;
     [Tooltip("The controller this prompt is refering. Must contain XRController and OculusButtonHighlighter components")]
-    [SerializeField] OculusButtonHighlighter controllerHighlighter;
+    [SerializeField] OculusButtonHighlighter[] controllers;
 
     void CreateMessage()
     {
@@ -45,8 +45,11 @@ public class OculusButtonActionPrompt : TextPrompt
         //Add the word "button" for all cases except the Thumbstick case.
         string buttonWord = button==OculusButton.Thumbstick ? "" : "button";
 
-        // Build the message string
-        string message = $"{action} the {buttonName} {buttonWord} on the {controllerType} controller to {consequence}";
+        //Add the controller type name "button" for all cases except the Thumbstick case.
+        string controllerWord = controllerType == OculusControllerType.Any ? "" : $"on {controllerType} controller";
+
+        // Build the message
+        string message = $"{action} the {buttonName} {buttonWord} {controllerWord} to {consequence}";
         _TextObject.text = message;
     }
 
@@ -77,7 +80,13 @@ public class OculusButtonActionPrompt : TextPrompt
 
     public override void Hide()
     {
-        controllerHighlighter.HideController();
+        foreach (var controller in controllers)
+        {
+            if (controller != null)
+            {
+                controller.Hide();
+            }
+        }
         base.Hide();
     }
 
@@ -85,7 +94,12 @@ public class OculusButtonActionPrompt : TextPrompt
     {
         base.Display();
         CreateMessage();
-        if (controllerHighlighter != null)
-            controllerHighlighter.IndicateButtonOnController(controllerType, button);
+        foreach (var controller in controllers)
+        {
+            if (controller != null)
+            {
+                controller.IndicateButtonOnController(controllerType, button);
+            }
+        }
     }
 }

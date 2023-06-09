@@ -42,7 +42,7 @@ public class OculusButtonHighlighter : MonoBehaviour
     }
 
     [ContextMenu("HideController")]
-    public void HideController()
+    public void Hide()
     {
         //swap between hand and oculus XRcontroller game objects
         controller.gameObject.SetActive(false);
@@ -51,11 +51,14 @@ public class OculusButtonHighlighter : MonoBehaviour
 
     public void IndicateButtonOnController(OculusControllerType controllerType, OculusButton button)
     {
-        if (this.controllerType != controllerType) return;
+        bool isValidControllerType = (controllerType == OculusControllerType.Any || controllerType == this.controllerType);
 
-        ShowController();
-        TriggerHapticFeedback();
-        PlaceMarkerOverButton(button);
+        if (isValidControllerType)
+        {
+            ShowController();
+            TriggerHapticFeedback();
+            PlaceMarkerOverButton(button);
+        }
     }
 
     private void PlaceMarkerOverButton(OculusButton button)
@@ -71,6 +74,7 @@ public class OculusButtonHighlighter : MonoBehaviour
         }
 
         buttonMarker.transform.position = buttonsDict[button].position;
+        buttonMarker.transform.rotation = buttonsDict[button].rotation;
     }
 
     private void TriggerHapticFeedback()
