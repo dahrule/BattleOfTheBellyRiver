@@ -5,7 +5,6 @@ public class ArtefactInfoDisplayer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI HeaderText;
     [SerializeField] TextMeshProUGUI Text;
-    [SerializeField] GameObject scaleIntructionsPanel;
 
     [SerializeField] string defaultHeaderText;
     [SerializeField, Multiline] string defaultText;
@@ -33,13 +32,11 @@ public class ArtefactInfoDisplayer : MonoBehaviour
         
         HeaderText.text = artefact.artefactName;
         Text.text = artefact.artefactInfo;
-        if (scaleIntructionsPanel != null) scaleIntructionsPanel.SetActive(artefact.scalable);
     }
 
     public void DisplayDefaultInfo()
     {
         HeaderText.text = defaultHeaderText;
         Text.text = defaultText;
-        if(scaleIntructionsPanel!=null) scaleIntructionsPanel.SetActive(false);
     }
 }

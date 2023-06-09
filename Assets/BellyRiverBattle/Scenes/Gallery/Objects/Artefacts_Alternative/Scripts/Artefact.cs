@@ -7,6 +7,4 @@ public class Artefact : ScriptableObject
     public string artefactName = null;
     [Multiline] public string artefactInfo = null;
     public Sprite artefactGraphic = null;
-    [Tooltip("Can this object be scaled")]
-    public bool scalable = false;
 }

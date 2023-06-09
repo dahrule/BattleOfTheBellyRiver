@@ -14,13 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 5562729378440978570, guid: 2e029ff19d1a63c49813fd8cab3e78c2, type: 3}
   artefactName: Red-white club
-  artefactInfo: "This may be the club Mike Mountain Horse referred to in describing
-    Thyrza Burkitt\u2019s collection in 1939 as: \u201Ca \u2018Buffalo Club\u2019
-    of the Crow Flag family [Crow Flag was Mike\u2019s maternal grandfather], is
-    a covered stone affair, attached tThis may be the club Mike Mountain Horse referred
-    to in describing Thyrza Burkitt\u2019s collection in 1939 as; \u201Ca \u2018Buffalo
-    Club\u2019 of the Crow Flag family [Crow Flag was Mike\u2019s maternal grandfather],
-    is a covered stone affair, attached to a long handle, it was cherished by my
-    grandfather [Crow Flag] as a memento of his buffalo days.\u201D  "
+  artefactInfo: "This may be the club that Mike Mountain Horse referred to when describing
+    Thyrza Burkitt's collection in 1939. \nHe described it as a \"Buffalo Club\"
+    of the Crow Flag family, with Crow Flag being Mike's maternal grandfather. \nIt
+    is a covered stone affair attached to a long handle and was cherished by my grandfather,
+    Crow Flag, as a memento of his buffalo days.\n"
   artefactGraphic: {fileID: 0}
-  scalable: 0

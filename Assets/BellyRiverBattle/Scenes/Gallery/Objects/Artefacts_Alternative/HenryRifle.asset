@@ -14,10 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 8722053478440141572, guid: fa581cf06c04127429dd8060928198d7, type: 3}
   artefactName: Henry Repeating Rifle
-  artefactInfo: "This sixteen-shot lever action repeating 0.44 rifle was designed
-    in 1860 by the New Haven Arms company and approximately 13,000 were made for
-    the American Civil War.\nThis rifle, along with Spencer and Winchesters were
-    traded with the Blackfoot at Fort Benton in Montana.\nIt weighs 9 pounds four
-    ounces, it\u2019s 44.75 inches in length and was used in close range fighting."
+  artefactInfo: 'This sixteen-shot lever-action repeating 0.44 rifle was designed
+    in 1860 by the New Haven Arms Company, and approximately 13,000 were made for
+    the American Civil War.
+
+    The rifle, along with Spencers and Winchesters,
+    was traded with the Blackfoot at Fort Benton in Montana.
+
+    It weighs 9 pounds
+    and four ounces, with a length of 44.75 inches. It was primarily used for close-range
+    fighting.
+
+'
   artefactGraphic: {fileID: 0}
-  scalable: 0

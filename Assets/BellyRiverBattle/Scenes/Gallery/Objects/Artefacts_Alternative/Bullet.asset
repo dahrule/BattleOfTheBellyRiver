@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb1664699b65af0499ba42929b9d8f07, type: 3}
-  m_Name: FlatStoneClub
+  m_Name: Bullet
   m_EditorClassIdentifier: 
-  artefactPrefab: {fileID: 4960806598822697115, guid: 118718c3f58e853409c2d02b03b46638, type: 3}
-  artefactName: Flat Stone Club
-  artefactInfo: "This club in the Burkitt collection is a stone partially enclosed
-    by rawhide, but with a very short handle. \nFrom the Burkitt collection, this
-    may be the club that Mike Mountain Horse described as his grandfather's.\n\n"
+  artefactPrefab: {fileID: 1743069495174072554, guid: 928248c1b3cca14418e8d529a0f40604, type: 3}
+  artefactName: Bullet
+  artefactInfo: .................................
   artefactGraphic: {fileID: 0}
