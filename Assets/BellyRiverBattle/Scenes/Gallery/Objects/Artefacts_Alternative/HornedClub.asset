@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 2035596948127950598, guid: bbc342b57e3871b4393a7aa7e1f13b9c, type: 3}
   artefactName: 'War Club with Horn end. '
-  artefactInfo: "Wooden shaft has leather braids on either end and a hand strap.
-    One item has liens engraved on the side.\nHorn-headed clubs appear to be unusual
-    among the Siksikaitsitapi (Clark Wissler does not mention the form in his 1910
-    monograph on the Material Culture of the Blackfoot, nor is there an example in
-    the Kainai collections at the Field Museum).  \n"
+  artefactInfo: 'The wooden shaft has leather braids on either end and a hand strap.
+    One item has lines engraved on the side.
+
+    Horn-headed clubs appear to be
+    unusual among the Siksikaitsitapi. Clark Wissler does not mention this form in
+    his 1910 monograph on the Material Culture of the Blackfoot, nor is there an
+    example in the Kainai collections at the Field Museum.
+
+'
   artefactGraphic: {fileID: 21300000, guid: 69e850fe7112a0943bd39b66b4caa08b, type: 3}
-  scalable: 0

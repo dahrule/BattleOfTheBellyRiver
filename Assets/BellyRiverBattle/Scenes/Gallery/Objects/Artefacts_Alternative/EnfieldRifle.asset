@@ -12,11 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1664699b65af0499ba42929b9d8f07, type: 3}
   m_Name: EnfieldRifle
   m_EditorClassIdentifier: 
-  artefactPrefab: {fileID: 0}
+  artefactPrefab: {fileID: 7738029841188938484, guid: 066f5ee578fae574d9e4643006f441d4, type: 3}
   artefactName: 'Enfield 1853 Single Shot Rifle '
-  artefactInfo: "This is a 0.577 calibre muzzle percussion lock loading gun used
-    by the Hudson Bay company and traded with the Cree.\nApproximately 1.5 million
-    were built between 1853 and 1867.\nIt weighs 9.5 pounds, it\u2019s 55 inches
-    in length.\nIt could fire up to 1,250 yards."
+  artefactInfo: 'This is a 0.577 caliber muzzle percussion lock loading gun used
+    by the Hudson Bay Company and traded with the Cree.
+
+    Approximately 1.5 million
+    were built between 1853 and 1867.
+
+    It weighs 9.5 pounds and is 55 inches
+    in length.
+
+
+    It could fire up to 1,250 yards.
+
+    
+
+'
   artefactGraphic: {fileID: 0}
-  scalable: 0
