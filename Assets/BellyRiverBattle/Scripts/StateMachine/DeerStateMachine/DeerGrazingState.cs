@@ -25,7 +25,7 @@ public class DeerGrazingState : DeerBaseState
     {
         RandomizePath();
 
-        //Change navemsh acceleratioi
+        //Change navemsh acceleration
        _stateMachine.Mover.SetAcceleration(_walkAcceleration);
 
         //Unparent path from deer

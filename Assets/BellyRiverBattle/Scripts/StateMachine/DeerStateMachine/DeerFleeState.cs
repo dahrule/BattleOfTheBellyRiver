@@ -43,7 +43,7 @@ public class DeerFleeState : DeerBaseState
 
         if (EndOfPath())
         {
-            _stateMachine.Switch(new DeerFadingState(_stateMachine, _stateMachine.SkinMeshDissolver));
+            //Write here what happens when deer reaches the end of the path.
             return;
         }
 

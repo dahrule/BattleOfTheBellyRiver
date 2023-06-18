@@ -9,9 +9,12 @@ public class ArtefactInfoDisplayer : MonoBehaviour
     [SerializeField] string defaultHeaderText;
     [SerializeField, Multiline] string defaultText;
 
+    [SerializeField] GameObject sideObject;
+
     private void Start()
     {
         DisplayDefaultInfo();
+        sideObject.SetActive(false);
     }
 
     private void OnEnable()
