@@ -21,11 +21,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1:
-        m_Texture: {fileID: 2800000, guid: c78ee93492a17ef42885353310df8b4e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2c2ca6cdc4f446b7bba252022230d397:
-        m_Texture: {fileID: 2800000, guid: 7df441785d6e4964880850bc4738e238, type: 3}
+        m_Texture: {fileID: 2800000, guid: c78ee93492a17ef42885353310df8b4e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_55380eb1471a4639baf4b28d675fa4c3:
@@ -68,8 +68,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1d12999c9da56194caefdd77087caa8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: 7df441785d6e4964880850bc4738e238, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_1:
+        m_Texture: {fileID: 2800000, guid: ce56b6f88cbfba04eb66cbe82bcc38fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_Map:
+        m_Texture: {fileID: 2800000, guid: ce56b6f88cbfba04eb66cbe82bcc38fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normalmap:
@@ -107,9 +119,9 @@ Material:
     m_Ints: []
     m_Floats:
     - DissolveAmount_: 0
-    - Vector1_54ea61343b31437eb9dbf40b74bbe298: 0.03
+    - Vector1_54ea61343b31437eb9dbf40b74bbe298: 1
     - Vector1_673383fe38b549be9eaa13ce65034034: 0
-    - Vector1_6964f715be9744d3835a6c8d3838d11b: 1.36
+    - Vector1_6964f715be9744d3835a6c8d3838d11b: 0.29
     - Vector1_9af9cafbc1dc4761bbfc7c1b835011ab: 1
     - Vector1_a748c4b392da4d9f9cbcc999bf6cdaf3: 30
     - Vector1_da1bc6d90cc649d8abe509eb7088a1ef: 1
@@ -139,7 +151,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.38
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -155,6 +167,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _FurForce: {r: 0.0013, g: 0, b: -0.004, a: 0}
+    - _Metallic_Color: {r: 0.12661673, g: 0.9150943, b: 0.24079105, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2437110498315817535

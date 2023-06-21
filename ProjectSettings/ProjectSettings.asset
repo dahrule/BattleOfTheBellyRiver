@@ -14,9 +14,9 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: BellyRiverBattle
-  defaultCursor: {fileID: 2800000, guid: 21caf182b84c0e144b118f6af44b2b29, type: 3}
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.7184941, g: 0.7638638, b: 0.764151, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -43,8 +43,8 @@ PlayerSettings:
   - logo: {fileID: 21300000, guid: 01f207c9f6e6cd447b704d911c29187c, type: 3}
     duration: 5
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
-    duration: 2.5
-  m_VirtualRealitySplashScreen: {fileID: 0}
+    duration: 2
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 01f207c9f6e6cd447b704d911c29187c, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080

@@ -10,10 +10,12 @@ Material:
   m_Name: American_Bison Simple HP
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
+  - _DETAIL_SCALED
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
   - _RECEIVE_SHADOWS_OFF
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   - _SPECGLOSSMAP
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
@@ -28,19 +30,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 1d12999c9da56194caefdd77087caa8a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 195d19efe697625448ff4e8b807601e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7f8c85bd8c46d294483ee986efa296a3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e4cd3aeb7d3d6b40ba8a7bbfcf823be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1d12999c9da56194caefdd77087caa8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ce56b6f88cbfba04eb66cbe82bcc38fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -56,11 +58,11 @@ Material:
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1d12999c9da56194caefdd77087caa8a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 195d19efe697625448ff4e8b807601e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 7df441785d6e4964880850bc4738e238, type: 3}
+        m_Texture: {fileID: 2800000, guid: 47853e3934025e04b8a4852f59e2d692, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normalmap:
@@ -104,7 +106,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.06
-    - _DetailAlbedoMapScale: 1
+    - _DetailAlbedoMapScale: 0.8
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionScaleUI: 0
@@ -116,14 +118,14 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.06
     - _GlossyReflections: 1
-    - _Metallic: 0.11
+    - _Metallic: 0
     - _Mode: 0
-    - _OcclusionStrength: 0.93
+    - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 0
-    - _Smoothness: 0.197
-    - _SmoothnessTextureChannel: 0
+    - _Smoothness: 0.854
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
