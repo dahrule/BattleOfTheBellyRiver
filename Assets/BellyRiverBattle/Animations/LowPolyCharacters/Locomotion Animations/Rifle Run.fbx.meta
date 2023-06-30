@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cf4da9daf28ceb4fb429a02dd8a3b99
+guid: 2ffd97c84c2a9da498728a8c87beba3c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Crouched Walk Rifle
+      name: Rifle Run
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
