@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 838e849ba4d06d445907c8d1a589fccd
+guid: 550b1bd3190254042af775709a53aa67
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Dying Backwards
+      name: Standing Up 2
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 109
+      lastFrame: 93
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
