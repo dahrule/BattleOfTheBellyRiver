@@ -28,4 +28,5 @@ public class HandAnimation : MonoBehaviour
         if (handAnimator == null) return;
         handAnimator.SetFloat("Grip", obj.ReadValue<float>());
     }
+
 }

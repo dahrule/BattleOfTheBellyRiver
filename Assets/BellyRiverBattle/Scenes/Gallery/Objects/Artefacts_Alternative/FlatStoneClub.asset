@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FlatStoneClub
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 4960806598822697115, guid: 118718c3f58e853409c2d02b03b46638, type: 3}
-  artefactName: Flat Stone Club
+  artefactName: Flat stone club
   artefactInfo: "This club in the Burkitt collection is a stone partially enclosed
     by rawhide, but with a very short handle. \nFrom the Burkitt collection, this
     may be the club that Mike Mountain Horse described as his grandfather's.\n\n"

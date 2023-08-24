@@ -6,6 +6,8 @@ public class ArtefactGrabInteractable : XRGrabInteractable
 {
     [Header("Artefact Data")]
     [SerializeField] Artefact artefact;
+    [Tooltip("Who can interact with this object")]
+    [SerializeField] string interactorTag;
 
     public static event UnityAction<Artefact> OnObjectSelected;
     public static event UnityAction<Artefact> OnObjectReleased;
@@ -18,10 +20,17 @@ public class ArtefactGrabInteractable : XRGrabInteractable
         positionAtStart = this.transform.position;
         rotationAtStart = this.transform.rotation;
     }
+
+
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        base.OnSelectEntered(args);
-        OnObjectSelected?.Invoke(this.artefact);
+        //Trigger event when the interactor is the player.
+        GameObject player = args.interactorObject.transform.gameObject;
+        if (player.CompareTag(interactorTag))
+        { 
+            base.OnSelectEntered(args);
+            OnObjectSelected?.Invoke(this.artefact); 
+        } 
     }
     protected override void OnSelectExited(SelectExitEventArgs args)
     {
