@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class LensSwitcher : MonoBehaviour
+public class LensSwaper : MonoBehaviour
 {
     public GameObject lens;
     public GameObject lensRenderTexture;
@@ -16,4 +16,5 @@ public class LensSwitcher : MonoBehaviour
         lens.SetActive(true);
         lensRenderTexture.SetActive(false);
     }
+
 }

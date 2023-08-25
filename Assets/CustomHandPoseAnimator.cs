@@ -3,9 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class CustomHandPoseAnimator : MonoBehaviour
 {
-    public enum HandModelType { Left, Right }
+    public enum HandType { Left, Right }
 
-    public HandModelType _handType;
+    public HandType _handType;
     RuntimeAnimatorController _defaultAnimController;
     Animator _animator;
 

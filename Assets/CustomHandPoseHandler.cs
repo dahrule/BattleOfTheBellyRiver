@@ -35,7 +35,7 @@ public class CustomHandPoseHandler : MonoBehaviour
         GameObject parent = arg.interactorObject.transform.parent.gameObject;
         _customHandPose = parent.GetComponentInChildren<CustomHandPoseAnimator>();
 
-        AnimatorOverrideController animOverrideController=(_customHandPose._handType == CustomHandPoseAnimator.HandModelType.Right) ? artefact.rightHand_overrideController:artefact.leftHand_overrideController;
+        AnimatorOverrideController animOverrideController=(_customHandPose._handType == CustomHandPoseAnimator.HandType.Right) ? artefact.rightHand_overrideController:artefact.leftHand_overrideController;
         _customHandPose.SetPose(animOverrideController);
 
         SetAttachPoint();
