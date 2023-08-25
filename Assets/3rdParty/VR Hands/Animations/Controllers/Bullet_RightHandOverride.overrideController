@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bullet_RightHandOverride
+  m_Controller: {fileID: 9100000, guid: 8d2b1e83588c6284ca8ccdba276af60a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e2e65407e2e9c334286aea3db347377b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1068054f4d98fb43be5a77800270e44, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b8ff647260464e240a60f1a2928ceaff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8ff647260464e240a60f1a2928ceaff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fad4bb0039b655c469107445cd660c4d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1068054f4d98fb43be5a77800270e44, type: 2}

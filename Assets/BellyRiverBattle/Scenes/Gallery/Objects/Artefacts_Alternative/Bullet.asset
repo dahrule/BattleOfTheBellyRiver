@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 1743069495174072554, guid: 928248c1b3cca14418e8d529a0f40604, type: 3}
   artefactName: Bullet
-  artefactInfo: .................................
-  artefactGraphic: {fileID: 0}
+  artefactInfo: Use the magnifying glass to look at the details.
+  leftHand_overrideController: {fileID: 22100000, guid: 980ca1029cbb9f24eafb1fc1ca3e9357, type: 2}
+  rightHand_overrideController: {fileID: 22100000, guid: b2e082a4a6e575d4ba1e4582a1ced945, type: 2}

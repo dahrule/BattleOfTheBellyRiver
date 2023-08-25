@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HornedClub
   m_EditorClassIdentifier: 
   artefactPrefab: {fileID: 2035596948127950598, guid: bbc342b57e3871b4393a7aa7e1f13b9c, type: 3}
-  artefactName: 'War Club with Horn end. '
+  artefactName: War club with horn end
   artefactInfo: 'The wooden shaft has leather braids on either end and a hand strap.
     One item has lines engraved on the side.
 

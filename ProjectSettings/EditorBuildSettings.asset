@@ -16,7 +16,7 @@ EditorBuildSettings:
     guid: e1827aa39baff3d42aad8d4663378a22
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/Gallery/Gallery.unity
-    guid: a2ba44019e2a540deb4507337c25a844
+    guid: 8d7a572dbac703641bc7fb340fb46d7e
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/BuffaloDream/BuffaloDream.unity
     guid: 25a8d9d2aac8e4d4c92aed7bb5389189

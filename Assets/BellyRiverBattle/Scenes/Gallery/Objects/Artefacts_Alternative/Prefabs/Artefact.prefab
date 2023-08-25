@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 888669607237383807}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 888669607370514572}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 888669607939839343}
   - component: {fileID: 888669607939839341}
   - component: {fileID: 888669607939839342}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,13 +157,13 @@ GameObject:
   - component: {fileID: 2129539693825676967}
   - component: {fileID: 4882209460324301720}
   - component: {fileID: 7636962102570329319}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Affordance (Hover color only)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2793005227244631660
 Transform:
   m_ObjectHideFlags: 0
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 6569549343676061648}
   - component: {fileID: 6674619623197167243}
   - component: {fileID: 1166357486}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Artefact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 3
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -502,6 +502,7 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   artefact: {fileID: 0}
+  interactorTag: Player
 --- !u!1 &7958315498698626613
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,13 +515,13 @@ GameObject:
   - component: {fileID: 6966400460862658833}
   - component: {fileID: 1995948812068596477}
   - component: {fileID: 1158637645995885390}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Affordance (Select color only)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6233465609314671223
 Transform:
   m_ObjectHideFlags: 0
