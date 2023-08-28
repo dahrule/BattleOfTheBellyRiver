@@ -1022,4 +1022,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c345ac9b2e872e945b108740e2179f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _handType: 1
+  <HandType>k__BackingField: 1

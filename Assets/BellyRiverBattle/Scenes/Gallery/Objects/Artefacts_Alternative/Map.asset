@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1664699b65af0499ba42929b9d8f07, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  artefactPrefab: {fileID: 6326168673790687689, guid: d69629ce4a7697b48b7645f181205464, type: 3}
+  artefactName: Old map
+  artefactInfo: '
+
+    "Cura ut valeas, dum spiro spero. Amor vincit omnia. Festina
+    lente. Dum vita est, spes est. Nunc est bibendum. Cura ut valeas, dum spiro spero.
+    Amor vincit omnia. Festina lente. Dum vita est, spes est. Nunc est bibendum."'
+  leftHand_overrideController: {fileID: 0}
+  rightHand_overrideController: {fileID: 0}

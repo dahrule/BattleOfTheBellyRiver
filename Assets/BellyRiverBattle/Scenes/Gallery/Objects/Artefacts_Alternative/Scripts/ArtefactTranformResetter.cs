@@ -21,6 +21,7 @@ public class ArtefactTranformResetter : MonoBehaviour
 
             foreach (ArtefactGrabInteractable obj in objectsToReset)
             {
+                if (obj == null) continue;
                 if (!obj.isSelected)
                 {
                     obj.ResetTransform();
