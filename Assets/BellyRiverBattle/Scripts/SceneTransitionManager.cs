@@ -45,6 +45,12 @@ public class SceneTransitionManager : MonoBehaviour
         operation.allowSceneActivation = true;
     }
 
+    public void fadeOutScene()
+    {
+        Debug.Log("hit");
+        gameObject.SendMessage("FadeOutScene"); //added to enable scene transitions from video controller
+    }
+
     //ToDisable. Used only for testing scene transitions.
     /*private void Update()
     {

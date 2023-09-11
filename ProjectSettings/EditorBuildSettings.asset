@@ -26,6 +26,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/DroneVideo/DroneVideo.unity
     guid: f5305d598f8eeb34782bb798f7d14f2f
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/Animation/ChargingIntoBattle.unity
+    guid: cdd11ab303e3c184b9984f1c91b11870
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/Animation/ChargingTheCamp.unity
+    guid: fdaa7a0fde587914b8ad73e9512995b9
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/Animation/RiverRetreat.unity
+    guid: 3d5faae68c5a7f846aabc6404eaca9b0
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/Animation/BigBattle.unity
+    guid: 75561ffe4c76df141a56b8dd01e32204
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/VideoPlayer/VideoPlayer1.unity
+    guid: b7e6633a8c6392d438a05bd831858ba7
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/VideoPlayer/VideoPlayer2.unity
+    guid: 8e9eb80ec894f95429b0c86290984c18
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/SmudgeBox/SmudgeBox.unity
+    guid: c363a7d0cbdaef6499934a06ad21273f
+  - enabled: 1
+    path: Assets/BellyRiverBattle/Scenes/VideoPlayer/VideoPlayer3.unity
+    guid: f19055dba1bd891409605ee39b02dea3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e244be179f402ef4e96af1c0c93b8269, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1689c86b7e3cf8943866aacb409e42c4, type: 2}

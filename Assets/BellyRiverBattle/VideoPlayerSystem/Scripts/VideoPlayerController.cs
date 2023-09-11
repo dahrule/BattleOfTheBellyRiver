@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.Video;
 using System.Collections;
 using System;
+using UnityEngine.SceneManagement;
+
+
 
 [RequireComponent(typeof(VideoPlayer))]
 public class VideoPlayerController : MonoBehaviour
@@ -11,6 +14,10 @@ public class VideoPlayerController : MonoBehaviour
     VideoPlayer _videoPlayer;
     int _videoClipIndex;
     IEnumerator _timeCount;
+    [SerializeField] string _nextScene;
+
+    //[SerializeField] GameObject SceneManager;
+    
 
     public event Action OnPause;
     public event Action OnPlay;
@@ -18,14 +25,16 @@ public class VideoPlayerController : MonoBehaviour
     public event Action OnTimeCountUpdate;
 
     private void Awake()
-    {
+    {       
         _videoPlayer = GetComponent<VideoPlayer>();
         _timeCount = TimeCountRoutine();
-        _videoPlayer.loopPointReached += (VideoPlayer) => SetNextClip(); //handles when playing video ends.
+        _videoPlayer.loopPointReached += (VideoPlayer) => SetNextClip(); //handles when playing video ends.        
+        
     }
 
     void Start()
     {
+        //SceneManager = GameObject.Find("SceneManager"); //finds SceneManager if not expressly filled
         _videoPlayer.targetTexture.Release(); //Last frame doesnot persist between sessions.
 
         if (_videoClips.Length != 0) _videoPlayer.clip = _videoClips[0];
@@ -68,7 +77,15 @@ public class VideoPlayerController : MonoBehaviour
 
         //Update index
         _videoClipIndex++;
-        if (_videoClipIndex >= _videoClips.Length) _videoClipIndex = 0;
+        if (_videoClipIndex >= _videoClips.Length)
+        {
+            _videoClipIndex= 0;
+            SceneManager.LoadScene(_nextScene);
+            //gameObject.SendMessage("FadeOutScene");
+            _videoPlayer.Stop();// Stop playback when all videos have been played     
+                        
+            return;
+        }
 
         _videoPlayer.clip = _videoClips[_videoClipIndex];
 
@@ -134,4 +151,5 @@ public class VideoPlayerController : MonoBehaviour
             yield return waitTime;
         }
     }
+    
 }
