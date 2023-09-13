@@ -6,4 +6,7 @@ public class Artefact : ScriptableObject
     [SerializeField] GameObject artefactPrefab=null;
     public string artefactName = null;
     [Multiline] public string artefactInfo = null;
+    public AnimatorOverrideController leftHand_overrideController;
+    public AnimatorOverrideController rightHand_overrideController;
+
 }

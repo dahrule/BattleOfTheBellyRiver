@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2869784676192304919}
   - component: {fileID: 2869784676192304918}
   - component: {fileID: 2869784676192304937}
+  - component: {fileID: 2869784676192304916}
   - component: {fileID: 2869784676192304936}
-  - component: {fileID: 657093065}
   m_Layer: 30
   m_Name: MagnifyingGlass_Object (RendTexture)
   m_TagString: Untagged
@@ -82,7 +82,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.021040427, y: 0.016581416, z: 0.120008424}
   m_Center: {x: 0.00010848418, y: 0.0012274384, z: -0.025574222}
---- !u!114 &2869784676192304936
+--- !u!114 &2869784676192304916
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,21 +91,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2869784676192304917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0efd09f44c334cc45abf43175b085d56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lens: {fileID: 5355193095157187601}
-  lensRenderTexture: {fileID: 3103802735094703723}
---- !u!114 &657093065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2869784676192304917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6b0216aea6a944f8f09f097bc88ce4, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -114,7 +100,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2
+    m_Bits: 3
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -147,7 +133,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2869784676192304936}
-        m_TargetAssemblyTypeName: LensSwaper, Assembly-CSharp
+        m_TargetAssemblyTypeName: LensSwitcher, Assembly-CSharp
         m_MethodName: UseRenderTexture
         m_Mode: 1
         m_Arguments:
@@ -174,7 +160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2869784676192304936}
-        m_TargetAssemblyTypeName: LensSwaper, Assembly-CSharp
+        m_TargetAssemblyTypeName: LensSwitcher, Assembly-CSharp
         m_MethodName: UseNonRenderTexture
         m_Mode: 1
         m_Arguments:
@@ -267,8 +253,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  artefact: {fileID: 0}
-  interactorTag: Player
+--- !u!114 &2869784676192304936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869784676192304917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efd09f44c334cc45abf43175b085d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lens: {fileID: 5355193095157187601}
+  lensRenderTexture: {fileID: 3103802735094703723}
 --- !u!1 &3103802734881323099
 GameObject:
   m_ObjectHideFlags: 0
