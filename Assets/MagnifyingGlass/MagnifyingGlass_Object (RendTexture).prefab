@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2869784676192304919}
   - component: {fileID: 2869784676192304918}
   - component: {fileID: 2869784676192304937}
-  - component: {fileID: 2869784676192304916}
+  - component: {fileID: 99308700285316589}
   - component: {fileID: 2869784676192304936}
   m_Layer: 30
   m_Name: MagnifyingGlass_Object (RendTexture)
@@ -82,7 +82,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.021040427, y: 0.016581416, z: 0.120008424}
   m_Center: {x: 0.00010848418, y: 0.0012274384, z: -0.025574222}
---- !u!114 &2869784676192304916
+--- !u!114 &99308700285316589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2869784676192304917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6b0216aea6a944f8f09f097bc88ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 3
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -131,46 +131,10 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2869784676192304936}
-        m_TargetAssemblyTypeName: LensSwitcher, Assembly-CSharp
-        m_MethodName: UseRenderTexture
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: OculusButtonActionComplete, Assembly-CSharp
-        m_MethodName: CallOnActionCompleteEvent
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2869784676192304936}
-        m_TargetAssemblyTypeName: LensSwitcher, Assembly-CSharp
-        m_MethodName: UseNonRenderTexture
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -253,6 +217,8 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  artefact: {fileID: 0}
+  interactorTag: Player
 --- !u!114 &2869784676192304936
 MonoBehaviour:
   m_ObjectHideFlags: 0
