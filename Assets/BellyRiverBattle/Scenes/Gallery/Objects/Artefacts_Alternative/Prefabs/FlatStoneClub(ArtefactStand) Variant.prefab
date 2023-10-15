@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4365541645467826814, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_Name
-      value: FlatStoneClub(ArtefactStand)
+      value: FlatStoneClub(ArtefactStand) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4365541645467826815, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_RootOrder
@@ -114,6 +114,10 @@ PrefabInstance:
     - target: {fileID: 4761852985169902236, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439585481721357537, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
