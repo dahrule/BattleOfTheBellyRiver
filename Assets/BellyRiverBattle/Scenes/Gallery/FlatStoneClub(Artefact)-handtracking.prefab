@@ -45,6 +45,79 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0095853135, y: 0.008286348, z: 0.012819879}
   m_Center: {x: 0.0021917205, y: -0.001749822, z: -0.0057408256}
+--- !u!1001 &1532091578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5978082637174674232}
+    m_Modifications:
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 314259139610439016, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784108126610004015, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_InteractableSource
+      value: 
+      objectReference: {fileID: 1467284613}
+    - target: {fileID: 4104645014554624858, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_Renderer
+      value: 
+      objectReference: {fileID: 398815281779888518}
+    - target: {fileID: 4696973491166461409, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_Name
+      value: InteractionAffordance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696973491166461409, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164804159106004020, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
 --- !u!1001 &710953212425553128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,51 +255,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15
+      value: 11.42025
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 15
+      value: 11.42025
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 15
+      value: 11.42025
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9683016
+      value: -0.36769
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7223747
+      value: 1.0134
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.5257385
+      value: 0.34684998
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.66391766
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.48669884
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.45789173
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.3356677
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 72.488
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -69.187
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 6569549343676061648, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -297,9 +370,9 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0068062446, y: 0.0052018655, z: 0.02974179}
   m_Center: {x: 0.0008021668, y: -0.00020758358, z: 0.0032069427}
---- !u!4 &398815281362612887 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 888669607237383807, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
+--- !u!23 &398815281779888518 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 888669607939839342, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
   m_PrefabInstance: {fileID: 710953212425553128}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5978082637174674232 stripped
@@ -327,13 +400,14 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 226377052}
+  - {fileID: 414815894}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2
+    m_Bits: 65
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
+  m_SelectMode: 1
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
@@ -415,7 +489,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 398815281362612887}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
@@ -423,21 +497,21 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
   m_SmoothPosition: 0
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
   m_TrackRotation: 1
   m_SmoothRotation: 0
-  m_SmoothRotationAmount: 5
-  m_TightenRotation: 0.5
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
   m_TrackScale: 1
-  m_SmoothScale: 0
+  m_SmoothScale: 1
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
   m_ThrowOnDetach: 1
