@@ -24,11 +24,12 @@ public class ArtefactGrabInteractable : XRGrabInteractable
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
+        base.OnSelectEntered(args);
         //Trigger event when the interactor is the player.
         GameObject player = args.interactorObject.transform.gameObject;
         if (player.CompareTag(interactorTag))
         { 
-            base.OnSelectEntered(args);
+            
             OnObjectSelected?.Invoke(this.artefact); 
         } 
     }

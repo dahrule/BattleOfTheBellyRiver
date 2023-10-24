@@ -15,10 +15,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/BellyRiverBattle/Scenes/Gallery/Gallery-layout2.unity
     guid: 66e9d4416f5920440bf14a24297b7ec0
-  - enabled: 0
+  - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/FollowDeer/FollowDeer.unity
     guid: 6cdbc3de42c9a6f4d9be50ed0a737cba
-  - enabled: 0
+  - enabled: 1
     path: Assets/BellyRiverBattle/Scenes/TeepeCamp/TepeeCamp.unity
     guid: e1827aa39baff3d42aad8d4663378a22
   - enabled: 0

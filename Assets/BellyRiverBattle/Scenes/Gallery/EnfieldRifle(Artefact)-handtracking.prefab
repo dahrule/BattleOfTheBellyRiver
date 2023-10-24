@@ -545,7 +545,7 @@ PrefabInstance:
     - target: {fileID: 1784108126610004015, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
       propertyPath: m_InteractableSource
       value: 
-      objectReference: {fileID: 707351003}
+      objectReference: {fileID: 0}
     - target: {fileID: 4104645014554624858, guid: 9a5f820ee9c46b64294ae756b459a681, type: 3}
       propertyPath: m_Renderer
       value: 
@@ -834,7 +834,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5791746762880716138, guid: c57e8f315b3d4a3468711c0b3eaa52a8, type: 3}
   m_PrefabInstance: {fileID: 988297531813800199}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &707351003
+--- !u!114 &707351007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -843,7 +843,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6761954320732529773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c6b0216aea6a944f8f09f097bc88ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -986,3 +986,5 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  artefact: {fileID: 11400000, guid: be82953c7491b264e8ed64857e48cff4, type: 2}
+  interactorTag: Player

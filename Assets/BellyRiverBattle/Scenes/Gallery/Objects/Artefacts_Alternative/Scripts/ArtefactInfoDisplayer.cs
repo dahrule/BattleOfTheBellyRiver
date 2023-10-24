@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ArtefactInfoDisplayer : MonoBehaviour
 {
@@ -17,13 +18,13 @@ public class ArtefactInfoDisplayer : MonoBehaviour
     private void OnEnable()
     {
         ArtefactGrabInteractable.OnObjectSelected += DisplayArtefactInfo;
-        ArtefactGrabInteractable.OnObjectReleased += (Artefact artefact) => DisplayDefaultInfo();
+        ArtefactGrabInteractable.OnObjectReleased += (Artefact artefact)=>DisplayDefaultInfo();
     }
 
     private void OnDisable()
     {
         ArtefactGrabInteractable.OnObjectSelected -= DisplayArtefactInfo;
-        ArtefactGrabInteractable.OnObjectReleased-= (Artefact artefact) => DisplayDefaultInfo();
+        ArtefactGrabInteractable.OnObjectReleased -= (Artefact artefact) => DisplayDefaultInfo();
     }
 
     public void DisplayArtefactInfo(Artefact artefact)
@@ -38,5 +39,10 @@ public class ArtefactInfoDisplayer : MonoBehaviour
     {
         HeaderText.text = defaultHeaderText;
         Text.text = defaultText;
+    }
+
+    void Test()
+    {
+        Debug.Log("TESTING");
     }
 }
