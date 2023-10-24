@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4365541645467826814, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_Name
-      value: HornedClub(ArtefactStand)
+      value: HornedClub(ArtefactStand) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4365541645467826815, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_RootOrder
@@ -65,6 +65,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4365541645467826815, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439585481721357537, guid: bd289c9025817524d9d8268664ed2bae, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
