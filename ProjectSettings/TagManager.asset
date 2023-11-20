@@ -12,6 +12,8 @@ TagManager:
   - buffalo
   - Animal
   - Water
+  - flames
+  - matchbox
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Gaze
   - Grab
   - Player
-  - 
+  - Fire
   - 
   - 
   - 
