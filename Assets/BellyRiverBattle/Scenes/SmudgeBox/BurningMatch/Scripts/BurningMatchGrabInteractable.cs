@@ -19,13 +19,20 @@ public class BurningMatchGrabInteractable : XRGrabInteractable
     protected override void OnEnable()
     {
         base.OnEnable();
-        match.OnIsLitChanged += ChangeInteractionLayerMask;
+        if(match!=null)
+        {
+            match.OnIsLitChanged += ChangeInteractionLayerMask;
+        }
+        
     }
 
     protected override void OnDisable()
     {
-        base.OnEnable();
-        match.OnIsLitChanged -= ChangeInteractionLayerMask;
+        base.OnDisable();
+        if(match!=null)
+        {
+            match.OnIsLitChanged -= ChangeInteractionLayerMask;
+        }
     }
 
     private bool IsLayerInMask(InteractionLayerMask mask, string layerName)

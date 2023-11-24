@@ -154,7 +154,7 @@ QualitySettings:
     - Server
     - WebGL
   m_PerPlatformDefaultQuality:
-    Android: 2
+    Android: 3
     Lumin: 2
     Nintendo Switch: 2
     PS4: 2

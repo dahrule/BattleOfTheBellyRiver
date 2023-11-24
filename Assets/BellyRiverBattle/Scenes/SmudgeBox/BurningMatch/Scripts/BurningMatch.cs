@@ -12,11 +12,12 @@ public class BurningMatch : MonoBehaviour {
     [SerializeField] AudioSource matchIgniteSfx;
 
     [Tooltip("Time to restore to the unburnt state. If the value is smaller than or equal to zero, no restoration occurs.")]
-    [SerializeField] float secondsToUnburnt = 5f;
+    [SerializeField] [Range(1,10)] readonly float secondsToUnlit = 5f;
+
+    [field: SerializeField] public bool CanResetToUnlit { set; get; } = true;
 
     float textureOffset = 0;
     Vector2 initialTextureOffset;
-    Transform transformAtStart;
 
     public event Action<bool> OnIsLitChanged;
   
@@ -66,7 +67,7 @@ public class BurningMatch : MonoBehaviour {
 	    matchStickAnimation.Play ();
         flamePositionAnimation.Play ();
 
-        yield  return new WaitForSeconds (0.2f);//time to wait texture offsetting begins
+        yield  return new WaitForSeconds (0.2f);//time to wait before texture offset begins
 
         while (textureOffset < 0.1f)
         {
@@ -94,8 +95,8 @@ public class BurningMatch : MonoBehaviour {
         flames.SetActive(false);
 
         //Reset to the unburnt state. 
-        if(secondsToUnburnt>0) 
-            Invoke(nameof(ResetToUnlit), secondsToUnburnt);
+        if(CanResetToUnlit) 
+            Invoke(nameof(ResetToUnlit), secondsToUnlit);
     }
 
     private void CheckAndPlaySmoke(float offset, float threshold, int index)

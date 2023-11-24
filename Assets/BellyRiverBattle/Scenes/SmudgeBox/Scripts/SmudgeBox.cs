@@ -1,16 +1,21 @@
 using UnityEngine;
 using UnityEngine.VFX;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Playables;
+using System;
 
 public class SmudgeBox : MonoBehaviour
 {
     [SerializeField] XRSocketInteractor [] smudgeItemSockets;
     [SerializeField] GameObject[] smudgeItemGameobjects;
+    [SerializeField] PlayableDirector director;
     [SerializeField] VisualEffect smokeVfx;
-    [SerializeField] float delaySeconds = 4f;
+
+    public static Action OnMixComplete;
 
     private int smudgeItemCount = 0;
     private readonly int smudgeItemsNeeded=3;
+    private BurningMatch currentMatchInMix;
 
     private void Start()
     {
@@ -25,6 +30,7 @@ public class SmudgeBox : MonoBehaviour
             int currentIndex = i;
             smudgeItemSockets[currentIndex].selectEntered.AddListener((SelectEnterEventArgs args) => OnSelectEnteredCallback(args, currentIndex));
             smudgeItemSockets[currentIndex].selectExited.AddListener((SelectExitEventArgs args) => OnSelectExitedCallback(args, currentIndex));
+            
         }
     }
 
@@ -56,7 +62,9 @@ public class SmudgeBox : MonoBehaviour
 
         bool isMixComplete = smudgeItemCount == smudgeItemsNeeded;
         if (isMixComplete)
-            Invoke(nameof(StartSmudgeFire), delaySeconds);
+        {
+            OnMixComplete?.Invoke();
+        }
     }
 
     private void RemoveSmudgeItem()
@@ -74,14 +82,7 @@ public class SmudgeBox : MonoBehaviour
         ghostItem.SetActive(true);
     }
 
-    private void StartSmudgeFire()
-    {
-        Debug.Log("Starting smudge fire");
-        smokeVfx.gameObject.SetActive(true);
-        //play a success sound
-        this.enabled = false;
-    }
-
+  
 }
 
 
