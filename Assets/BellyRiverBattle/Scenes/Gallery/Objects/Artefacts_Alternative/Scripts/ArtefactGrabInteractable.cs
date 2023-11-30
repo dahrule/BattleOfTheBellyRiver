@@ -29,14 +29,18 @@ public class ArtefactGrabInteractable : XRGrabInteractable
         GameObject player = args.interactorObject.transform.gameObject;
         if (player.CompareTag(interactorTag))
         { 
-            
             OnObjectSelected?.Invoke(this.artefact); 
         } 
     }
     protected override void OnSelectExited(SelectExitEventArgs args)
     {
         base.OnSelectExited(args);
-        OnObjectReleased?.Invoke(this.artefact);
+        //Trigger event when the interactor is the player.
+        GameObject player = args.interactorObject.transform.gameObject;
+        if (player.CompareTag(interactorTag))
+        {
+            OnObjectReleased?.Invoke(this.artefact);
+        }
     }
 
     public void ResetTransform()
