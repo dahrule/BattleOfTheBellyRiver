@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/BattleBellyRiver/Scenes/TestScenes/VideoPlayer1 1.unity
+    guid: 8b27a1196e7a7fb46a91d176bb85f670
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e244be179f402ef4e96af1c0c93b8269, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1689c86b7e3cf8943866aacb409e42c4, type: 2}

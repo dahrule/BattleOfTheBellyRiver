@@ -10,12 +10,20 @@ public class LookAtPlayer : MonoBehaviour
         if(Player==null) Player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private void Start()
+    private void OnEnable()
     {
         if (Player != null)
         {
             StartCoroutine(UpdateRoutine());
         }     
+    }
+
+    private void OnDisable()
+    {
+        if (Player != null)
+        {
+            StopCoroutine(UpdateRoutine());
+        }
     }
 
     IEnumerator UpdateRoutine()

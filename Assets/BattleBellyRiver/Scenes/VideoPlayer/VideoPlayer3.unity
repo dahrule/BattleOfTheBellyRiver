@@ -7506,11 +7506,11 @@ PrefabInstance:
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[0]
       value: 
-      objectReference: {fileID: 32900000, guid: 86a9a17095deeaa429613e4453d3fbd9, type: 3}
+      objectReference: {fileID: 32900000, guid: 9e0cb9bda5ff9e24d8e501b50f075339, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[1]
       value: 
-      objectReference: {fileID: 32900000, guid: 889c71fb26ac30f4b961b5269b5e009a, type: 3}
+      objectReference: {fileID: 32900000, guid: 75bb666d69081fe45a1e7d85d6c0e68f, type: 3}
     - target: {fileID: 3887179067377372277, guid: b4d486b5806538e4ebcf3b1319bfe7e7, type: 3}
       propertyPath: _videoClips.Array.data[2]
       value: 
