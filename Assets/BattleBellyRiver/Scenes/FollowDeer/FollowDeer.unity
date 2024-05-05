@@ -18414,7 +18414,7 @@ MonoBehaviour:
   RayInteractors:
   - {fileID: 3104411857255910537}
   - {fileID: 7822482028795779178}
-  _handInteractionEnabledAtStart: 0
+  _handInteractionEnabledAtStart: 1
 --- !u!114 &5773256366581389110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18444,7 +18444,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 0
 --- !u!1 &5805173480480945956
 GameObject:
   m_ObjectHideFlags: 0
