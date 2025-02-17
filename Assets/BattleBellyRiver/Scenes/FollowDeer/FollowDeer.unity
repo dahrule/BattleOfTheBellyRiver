@@ -197,6 +197,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1e1f5f21c14344c94e5b83e1abbf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!23 &62986800 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -441392206481372660, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+  m_PrefabInstance: {fileID: 159237968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &82490939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -339,6 +344,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &96763943 stripped
@@ -735,6 +752,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &276957821 stripped
@@ -819,6 +848,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &303110940 stripped
@@ -893,6 +934,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &316747291 stripped
@@ -967,6 +1020,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &340721657 stripped
@@ -1312,6 +1377,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &473283882 stripped
@@ -1386,6 +1463,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &491801136 stripped
@@ -1619,6 +1708,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &623105198 stripped
@@ -2079,6 +2180,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &733951259 stripped
@@ -2153,6 +2266,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &773821760 stripped
@@ -2573,6 +2698,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &927382246 stripped
@@ -3079,6 +3216,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1018443824 stripped
@@ -3508,6 +3657,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4366878018296330, guid: 48d98ed1a3ee61c40b5e93ec9ce16e5f, type: 3}
   m_PrefabInstance: {fileID: 1111467291}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &1171196938 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8514669631221349947, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+  m_PrefabInstance: {fileID: 159237968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1197131797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,6 +3776,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1201299496 stripped
@@ -3696,6 +3862,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1215148753 stripped
@@ -3707,6 +3885,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4366878018296330, guid: 48d98ed1a3ee61c40b5e93ec9ce16e5f, type: 3}
   m_PrefabInstance: {fileID: 673111970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1250831013 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7155121559907953994, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+  m_PrefabInstance: {fileID: 159237968}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1264606993
 PrefabInstance:
@@ -3775,6 +3958,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1264606994 stripped
@@ -3932,6 +4127,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1440405084 stripped
@@ -4006,6 +4213,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1451778835 stripped
@@ -4296,6 +4515,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1572275625 stripped
@@ -4431,6 +4662,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1594289156 stripped
@@ -4505,6 +4748,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1656451798 stripped
@@ -4615,6 +4870,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1724208415 stripped
@@ -4722,6 +4989,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1777102659 stripped
@@ -5218,6 +5497,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1786870886 stripped
@@ -5358,6 +5649,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1790969975 stripped
@@ -5515,6 +5818,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1874771132 stripped
@@ -5589,6 +5904,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1896553889 stripped
@@ -5663,6 +5990,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1918924218 stripped
@@ -5737,6 +6076,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1954082971 stripped
@@ -5811,6 +6162,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &1994163554 stripped
@@ -6018,6 +6381,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &2049387233 stripped
@@ -6092,6 +6467,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: teepee02_lodGroup (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1250831013}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 1171196938}
+    - target: {fileID: 4742473837712756890, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 62986800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97882a5f146153e4c99e203e45407e00, type: 3}
 --- !u!4 &2084594312 stripped

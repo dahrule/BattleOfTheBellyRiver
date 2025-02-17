@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.48652184, g: 0.5921117, b: 0.65581673, a: 1}
+  m_IndirectSpecularColor: {r: 0.48499686, g: 0.5915705, b: 0.65521884, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2004,7 +2004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1644409665241760775, guid: 1fd5c1ad8a4a49441850054878357a1a, type: 3}
       propertyPath: m_Name
-      value: ButterFlies (1)
+      value: ButterFlies-Right
       objectReference: {fileID: 0}
     - target: {fileID: 1644409665241760826, guid: 1fd5c1ad8a4a49441850054878357a1a, type: 3}
       propertyPath: m_RootOrder
@@ -3494,7 +3494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1644409665241760775, guid: 1fd5c1ad8a4a49441850054878357a1a, type: 3}
       propertyPath: m_Name
-      value: ButterFlies
+      value: ButterFlies-Left
       objectReference: {fileID: 0}
     - target: {fileID: 1644409665241760826, guid: 1fd5c1ad8a4a49441850054878357a1a, type: 3}
       propertyPath: m_RootOrder
